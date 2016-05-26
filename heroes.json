@@ -1,0 +1,557 @@
+[
+    {
+        "name": "Abaddon",
+        "id": "abaddon",
+        "roles": "Melee, Carry, Durable, Support"
+    },
+    {
+        "name": "Alchemist",
+        "id": "alchemist",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Ancient Apparition",
+        "id": "ancient-apparition",
+        "roles": "Ranged, Disabler, Nuker, Support"
+    },
+    {
+        "name": "Anti-Mage",
+        "id": "anti-mage",
+        "roles": "Melee, Carry, Escape, Nuker"
+    },
+    {
+        "name": "Arc Warden",
+        "id": "arc-warden",
+        "roles": "Ranged, Carry, Escape, Nuker"
+    },
+    {
+        "name": "Axe",
+        "id": "axe",
+        "roles": "Melee, Disabler, Durable, Initiator, Jungler"
+    },
+    {
+        "name": "Bane",
+        "id": "bane",
+        "roles": "Ranged, Disabler, Durable, Nuker, Support"
+    },
+    {
+        "name": "Batrider",
+        "id": "batrider",
+        "roles": "Ranged, Disabler, Escape, Initiator, Jungler"
+    },
+    {
+        "name": "Beastmaster",
+        "id": "beastmaster",
+        "roles": "Melee, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Bloodseeker",
+        "id": "bloodseeker",
+        "roles": "Melee, Carry, Disabler, Initiator, Jungler, Nuker"
+    },
+    {
+        "name": "Bounty Hunter",
+        "id": "bounty-hunter",
+        "roles": "Melee, Escape, Nuker"
+    },
+    {
+        "name": "Brewmaster",
+        "id": "brewmaster",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Bristleback",
+        "id": "bristleback",
+        "roles": "Melee, Carry, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Broodmother",
+        "id": "broodmother",
+        "roles": "Melee, Carry, Escape, Nuker, Pusher"
+    },
+    {
+        "name": "Centaur Warrunner",
+        "id": "centaur-warrunner",
+        "roles": "Melee, Disabler, Durable, Escape, Initiator, Nuker"
+    },
+    {
+        "name": "Chaos Knight",
+        "id": "chaos-knight",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Pusher"
+    },
+    {
+        "name": "Chen",
+        "id": "chen",
+        "roles": "Ranged, Jungler, Pusher, Support"
+    },
+    {
+        "name": "Clinkz",
+        "id": "clinkz",
+        "roles": "Ranged, Carry, Escape, Pusher"
+    },
+    {
+        "name": "Clockwerk",
+        "id": "clockwerk",
+        "roles": "Melee, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Crystal Maiden",
+        "id": "crystal-maiden",
+        "roles": "Ranged, Disabler, Jungler, Nuker, Support"
+    },
+    {
+        "name": "Dark Seer",
+        "id": "dark-seer",
+        "roles": "Melee, Disabler, Escape, Initiator, Jungler"
+    },
+    {
+        "name": "Dazzle",
+        "id": "dazzle",
+        "roles": "Ranged, Disabler, Nuker, Support"
+    },
+    {
+        "name": "Death Prophet",
+        "id": "death-prophet",
+        "roles": "Ranged, Carry, Disabler, Nuker, Pusher"
+    },
+    {
+        "name": "Disruptor",
+        "id": "disruptor",
+        "roles": "Ranged, Disabler, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Doom",
+        "id": "doom",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Dragon Knight",
+        "id": "dragon-knight",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker, Pusher"
+    },
+    {
+        "name": "Drow Ranger",
+        "id": "drow-ranger",
+        "roles": "Ranged, Carry, Disabler, Pusher"
+    },
+    {
+        "name": "Earth Spirit",
+        "id": "earth-spirit",
+        "roles": "Melee, Disabler, Durable, Escape, Initiator, Nuker"
+    },
+    {
+        "name": "Earthshaker",
+        "id": "earthshaker",
+        "roles": "Melee, Disabler, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Elder Titan",
+        "id": "elder-titan",
+        "roles": "Melee, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Ember Spirit",
+        "id": "ember-spirit",
+        "roles": "Melee, Carry, Disabler, Escape, Initiator, Nuker"
+    },
+    {
+        "name": "Enchantress",
+        "id": "enchantress",
+        "roles": "Ranged, Disabler, Durable, Jungler, Pusher, Support"
+    },
+    {
+        "name": "Enigma",
+        "id": "enigma",
+        "roles": "Ranged, Disabler, Initiator, Jungler, Pusher"
+    },
+    {
+        "name": "Faceless Void",
+        "id": "faceless-void",
+        "roles": "Melee, Carry, Disabler, Durable, Escape, Initiator"
+    },
+    {
+        "name": "Gyrocopter",
+        "id": "gyrocopter",
+        "roles": "Ranged, Carry, Disabler, Nuker"
+    },
+    {
+        "name": "Huskar",
+        "id": "huskar",
+        "roles": "Ranged, Carry, Durable, Initiator"
+    },
+    {
+        "name": "Invoker",
+        "id": "invoker",
+        "roles": "Ranged, Carry, Disabler, Escape, Nuker, Pusher"
+    },
+    {
+        "name": "Io",
+        "id": "io",
+        "roles": "Ranged, Escape, Nuker, Support"
+    },
+    {
+        "name": "Jakiro",
+        "id": "jakiro",
+        "roles": "Ranged, Disabler, Nuker, Pusher, Support"
+    },
+    {
+        "name": "Juggernaut",
+        "id": "juggernaut",
+        "roles": "Melee, Carry, Escape, Pusher"
+    },
+    {
+        "name": "Keeper of the Light",
+        "id": "keeper-of the light",
+        "roles": "Ranged, Disabler, Jungler, Nuker, Support"
+    },
+    {
+        "name": "Kunkka",
+        "id": "kunkka",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Legion Commander",
+        "id": "legion-commander",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Leshrac",
+        "id": "leshrac",
+        "roles": "Ranged, Carry, Disabler, Nuker, Pusher, Support"
+    },
+    {
+        "name": "Lich",
+        "id": "lich",
+        "roles": "Ranged, Nuker, Support"
+    },
+    {
+        "name": "Lifestealer",
+        "id": "lifestealer",
+        "roles": "Melee, Carry, Disabler, Durable, Escape, Jungler"
+    },
+    {
+        "name": "Lina",
+        "id": "lina",
+        "roles": "Ranged, Carry, Disabler, Nuker, Support"
+    },
+    {
+        "name": "Lion",
+        "id": "lion",
+        "roles": "Ranged, Disabler, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Lone Druid",
+        "id": "lone-druid",
+        "roles": "Ranged, Carry, Durable, Jungler, Pusher"
+    },
+    {
+        "name": "Luna",
+        "id": "luna",
+        "roles": "Ranged, Carry, Nuker, Pusher"
+    },
+    {
+        "name": "Lycan",
+        "id": "lycan",
+        "roles": "Melee, Carry, Durable, Escape, Jungler, Pusher"
+    },
+    {
+        "name": "Magnus",
+        "id": "magnus",
+        "roles": "Melee, Disabler, Escape, Initiator, Nuker"
+    },
+    {
+        "name": "Medusa",
+        "id": "medusa",
+        "roles": "Ranged, Carry, Disabler, Durable"
+    },
+    {
+        "name": "Meepo",
+        "id": "meepo",
+        "roles": "Melee, Carry, Disabler, Escape, Initiator, Nuker, Pusher"
+    },
+    {
+        "name": "Mirana",
+        "id": "mirana",
+        "roles": "Ranged, Carry, Disabler, Escape, Nuker, Support"
+    },
+    {
+        "name": "Morphling",
+        "id": "morphling",
+        "roles": "Ranged, Carry, Disabler, Durable, Escape, Nuker"
+    },
+    {
+        "name": "Naga Siren",
+        "id": "naga-siren",
+        "roles": "Melee, Carry, Disabler, Escape, Initiator, Pusher, Support"
+    },
+    {
+        "name": "Nature's Prophet",
+        "id": "natures-prophet",
+        "roles": "Ranged, Carry, Escape, Jungler, Nuker, Pusher"
+    },
+    {
+        "name": "Necrophos",
+        "id": "necrophos",
+        "roles": "Ranged, Carry, Disabler, Durable, Nuker"
+    },
+    {
+        "name": "Night Stalker",
+        "id": "night-stalker",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Nyx Assassin",
+        "id": "nyx-assassin",
+        "roles": "Melee, Disabler, Escape, Initiator, Nuker"
+    },
+    {
+        "name": "Ogre Magi",
+        "id": "ogre-magi",
+        "roles": "Melee, Disabler, Durable, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Omniknight",
+        "id": "omniknight",
+        "roles": "Melee, Durable, Nuker, Support"
+    },
+    {
+        "name": "Oracle",
+        "id": "oracle",
+        "roles": "Ranged, Disabler, Escape, Nuker, Support"
+    },
+    {
+        "name": "Outworld Devourer",
+        "id": "outworld-devourer",
+        "roles": "Ranged, Carry, Disabler, Nuker"
+    },
+    {
+        "name": "Phantom Assassin",
+        "id": "phantom-assassin",
+        "roles": "Melee, Carry, Escape"
+    },
+    {
+        "name": "Phantom Lancer",
+        "id": "phantom-lancer",
+        "roles": "Melee, Carry, Escape, Nuker, Pusher"
+    },
+    {
+        "name": "Phoenix",
+        "id": "phoenix",
+        "roles": "Ranged, Disabler, Escape, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Puck",
+        "id": "puck",
+        "roles": "Ranged, Disabler, Escape, Initiator, Nuker"
+    },
+    {
+        "name": "Pudge",
+        "id": "pudge",
+        "roles": "Melee, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Pugna",
+        "id": "pugna",
+        "roles": "Ranged, Nuker, Pusher"
+    },
+    {
+        "name": "Queen of Pain",
+        "id": "queen-of pain",
+        "roles": "Ranged, Carry, Escape, Nuker"
+    },
+    {
+        "name": "Razor",
+        "id": "razor",
+        "roles": "Ranged, Carry, Durable, Nuker, Pusher"
+    },
+    {
+        "name": "Riki",
+        "id": "riki",
+        "roles": "Melee, Carry, Disabler, Escape"
+    },
+    {
+        "name": "Rubick",
+        "id": "rubick",
+        "roles": "Ranged, Disabler, Nuker, Support"
+    },
+    {
+        "name": "Sand King",
+        "id": "sand-king",
+        "roles": "Melee, Disabler, Escape, Initiator, Jungler, Nuker"
+    },
+    {
+        "name": "Shadow Demon",
+        "id": "shadow-demon",
+        "roles": "Ranged, Disabler, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Shadow Fiend",
+        "id": "shadow-fiend",
+        "roles": "Ranged, Carry, Nuker"
+    },
+    {
+        "name": "Shadow Shaman",
+        "id": "shadow-shaman",
+        "roles": "Ranged, Disabler, Initiator, Nuker, Pusher, Support"
+    },
+    {
+        "name": "Silencer",
+        "id": "silencer",
+        "roles": "Ranged, Carry, Disabler, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Skywrath Mage",
+        "id": "skywrath-mage",
+        "roles": "Ranged, Disabler, Nuker, Support"
+    },
+    {
+        "name": "Slardar",
+        "id": "slardar",
+        "roles": "Melee, Carry, Disabler, Durable, Escape, Initiator"
+    },
+    {
+        "name": "Slark",
+        "id": "slark",
+        "roles": "Melee, Carry, Disabler, Escape, Nuker"
+    },
+    {
+        "name": "Sniper",
+        "id": "sniper",
+        "roles": "Ranged, Carry, Nuker"
+    },
+    {
+        "name": "Spectre",
+        "id": "spectre",
+        "roles": "Melee, Carry, Durable, Escape"
+    },
+    {
+        "name": "Spirit Breaker",
+        "id": "spirit-breaker",
+        "roles": "Melee, Carry, Disabler, Durable, Escape, Initiator"
+    },
+    {
+        "name": "Storm Spirit",
+        "id": "storm-spirit",
+        "roles": "Ranged, Carry, Disabler, Escape, Initiator, Nuker"
+    },
+    {
+        "name": "Sven",
+        "id": "sven",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Techies",
+        "id": "techies",
+        "roles": "Ranged, Disabler, Nuker"
+    },
+    {
+        "name": "Templar Assassin",
+        "id": "templar-assassin",
+        "roles": "Melee, Carry, Escape"
+    },
+    {
+        "name": "Terrorblade",
+        "id": "terrorblade",
+        "roles": "Melee, Carry, Nuker, Pusher"
+    },
+    {
+        "name": "Tidehunter",
+        "id": "tidehunter",
+        "roles": "Melee, Disabler, Durable, Initiator, Nuker"
+    },
+    {
+        "name": "Timbersaw",
+        "id": "timbersaw",
+        "roles": "Melee, Durable, Escape, Nuker"
+    },
+    {
+        "name": "Tinker",
+        "id": "tinker",
+        "roles": "Ranged, Carry, Nuker, Pusher"
+    },
+    {
+        "name": "Tiny",
+        "id": "tiny",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Nuker, Pusher"
+    },
+    {
+        "name": "Treant Protector",
+        "id": "treant-protector",
+        "roles": "Melee, Disabler, Durable, Escape, Initiator, Support"
+    },
+    {
+        "name": "Troll Warlord",
+        "id": "troll-warlord",
+        "roles": "Ranged, Carry, Disabler, Durable, Pusher"
+    },
+    {
+        "name": "Tusk",
+        "id": "tusk",
+        "roles": "Melee, Disabler, Initiator, Nuker"
+    },
+    {
+        "name": "Undying",
+        "id": "undying",
+        "roles": "Melee, Disabler, Durable, Nuker, Support"
+    },
+    {
+        "name": "Ursa",
+        "id": "ursa",
+        "roles": "Melee, Carry, Disabler, Durable, Jungler"
+    },
+    {
+        "name": "Vengeful Spirit",
+        "id": "vengeful-spirit",
+        "roles": "Ranged, Disabler, Escape, Initiator, Nuker, Support"
+    },
+    {
+        "name": "Venomancer",
+        "id": "venomancer",
+        "roles": "Ranged, Disabler, Initiator, Nuker, Pusher, Support"
+    },
+    {
+        "name": "Viper",
+        "id": "viper",
+        "roles": "Ranged, Carry, Disabler, Durable, Initiator"
+    },
+    {
+        "name": "Visage",
+        "id": "visage",
+        "roles": "Ranged, Disabler, Durable, Nuker, Pusher, Support"
+    },
+    {
+        "name": "Warlock",
+        "id": "warlock",
+        "roles": "Ranged, Disabler, Initiator, Support"
+    },
+    {
+        "name": "Weaver",
+        "id": "weaver",
+        "roles": "Ranged, Carry, Escape"
+    },
+    {
+        "name": "Windranger",
+        "id": "windranger",
+        "roles": "Ranged, Carry, Disabler, Escape, Nuker, Support"
+    },
+    {
+        "name": "Winter Wyvern",
+        "id": "winter-wyvern",
+        "roles": "Ranged, Disabler, Nuker, Support"
+    },
+    {
+        "name": "Witch Doctor",
+        "id": "witch-doctor",
+        "roles": "Ranged, Disabler, Nuker, Support"
+    },
+    {
+        "name": "Wraith King",
+        "id": "wraith-king",
+        "roles": "Melee, Carry, Disabler, Durable, Initiator, Support"
+    },
+    {
+        "name": "Zeus",
+        "id": "zeus",
+        "roles": "Ranged, Nuker"
+    }
+]
