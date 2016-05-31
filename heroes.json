@@ -1,1106 +1,1551 @@
-[{
-    "name": "Abaddon",
-    "id": "abaddon",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Durable",
-        "Support"
-    ]
-}, {
-    "name": "Alchemist",
-    "id": "alchemist",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Ancient Apparition",
-    "id": "ancient-apparition",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Anti-Mage",
-    "id": "anti-mage",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Escape",
-        "Nuker"
-    ]
-}, {
-    "name": "Arc Warden",
-    "id": "arc-warden",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Escape",
-        "Nuker"
-    ]
-}, {
-    "name": "Axe",
-    "id": "axe",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Jungler"
-    ]
-}, {
-    "name": "Bane",
-    "id": "bane",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Durable",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Batrider",
-    "id": "batrider",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Jungler"
-    ]
-}, {
-    "name": "Beastmaster",
-    "id": "beastmaster",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Bloodseeker",
-    "id": "bloodseeker",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Initiator",
-        "Jungler",
-        "Nuker"
-    ]
-}, {
-    "name": "Bounty Hunter",
-    "id": "bounty-hunter",
-    "roles": [
-        "Melee",
-        "Escape",
-        "Nuker"
-    ]
-}, {
-    "name": "Brewmaster",
-    "id": "brewmaster",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Bristleback",
-    "id": "bristleback",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Broodmother",
-    "id": "broodmother",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Escape",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Centaur Warrunner",
-    "id": "centaur-warrunner",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Chaos Knight",
-    "id": "chaos-knight",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Pusher"
-    ]
-}, {
-    "name": "Chen",
-    "id": "chen",
-    "roles": [
-        "Ranged",
-        "Jungler",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Clinkz",
-    "id": "clinkz",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Escape",
-        "Pusher"
-    ]
-}, {
-    "name": "Clockwerk",
-    "id": "clockwerk",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Crystal Maiden",
-    "id": "crystal-maiden",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Jungler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Dark Seer",
-    "id": "dark-seer",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Jungler"
-    ]
-}, {
-    "name": "Dazzle",
-    "id": "dazzle",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Death Prophet",
-    "id": "death-prophet",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Disruptor",
-    "id": "disruptor",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Doom",
-    "id": "doom",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Dragon Knight",
-    "id": "dragon-knight",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Drow Ranger",
-    "id": "drow-ranger",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Pusher"
-    ]
-}, {
-    "name": "Earth Spirit",
-    "id": "earth-spirit",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Earthshaker",
-    "id": "earthshaker",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Elder Titan",
-    "id": "elder-titan",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Ember Spirit",
-    "id": "ember-spirit",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Enchantress",
-    "id": "enchantress",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Durable",
-        "Jungler",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Enigma",
-    "id": "enigma",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Initiator",
-        "Jungler",
-        "Pusher"
-    ]
-}, {
-    "name": "Faceless Void",
-    "id": "faceless-void",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Initiator"
-    ]
-}, {
-    "name": "Gyrocopter",
-    "id": "gyrocopter",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Nuker"
-    ]
-}, {
-    "name": "Huskar",
-    "id": "huskar",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Durable",
-        "Initiator"
-    ]
-}, {
-    "name": "Invoker",
-    "id": "invoker",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Io",
-    "id": "io",
-    "roles": [
-        "Ranged",
-        "Escape",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Jakiro",
-    "id": "jakiro",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Juggernaut",
-    "id": "juggernaut",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Escape",
-        "Pusher"
-    ]
-}, {
-    "name": "Keeper of the Light",
-    "id": "keeper-of the light",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Jungler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Kunkka",
-    "id": "kunkka",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Legion Commander",
-    "id": "legion-commander",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Leshrac",
-    "id": "leshrac",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Nuker",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Lich",
-    "id": "lich",
-    "roles": [
-        "Ranged",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Lifestealer",
-    "id": "lifestealer",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Jungler"
-    ]
-}, {
-    "name": "Lina",
-    "id": "lina",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Lion",
-    "id": "lion",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Lone Druid",
-    "id": "lone-druid",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Durable",
-        "Jungler",
-        "Pusher"
-    ]
-}, {
-    "name": "Luna",
-    "id": "luna",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Lycan",
-    "id": "lycan",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Durable",
-        "Escape",
-        "Jungler",
-        "Pusher"
-    ]
-}, {
-    "name": "Magnus",
-    "id": "magnus",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Medusa",
-    "id": "medusa",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Durable"
-    ]
-}, {
-    "name": "Meepo",
-    "id": "meepo",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Mirana",
-    "id": "mirana",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Morphling",
-    "id": "morphling",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Nuker"
-    ]
-}, {
-    "name": "Naga Siren",
-    "id": "naga-siren",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Nature's Prophet",
-    "id": "natures-prophet",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Escape",
-        "Jungler",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Necrophos",
-    "id": "necrophos",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Nuker"
-    ]
-}, {
-    "name": "Night Stalker",
-    "id": "night-stalker",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Nyx Assassin",
-    "id": "nyx-assassin",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Ogre Magi",
-    "id": "ogre-magi",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Omniknight",
-    "id": "omniknight",
-    "roles": [
-        "Melee",
-        "Durable",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Oracle",
-    "id": "oracle",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Escape",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Outworld Devourer",
-    "id": "outworld-devourer",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Nuker"
-    ]
-}, {
-    "name": "Phantom Assassin",
-    "id": "phantom-assassin",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Escape"
-    ]
-}, {
-    "name": "Phantom Lancer",
-    "id": "phantom-lancer",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Escape",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Phoenix",
-    "id": "phoenix",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Puck",
-    "id": "puck",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Pudge",
-    "id": "pudge",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Pugna",
-    "id": "pugna",
-    "roles": [
-        "Ranged",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Queen of Pain",
-    "id": "queen-of pain",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Escape",
-        "Nuker"
-    ]
-}, {
-    "name": "Razor",
-    "id": "razor",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Durable",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Riki",
-    "id": "riki",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Escape"
-    ]
-}, {
-    "name": "Rubick",
-    "id": "rubick",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Sand King",
-    "id": "sand-king",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Jungler",
-        "Nuker"
-    ]
-}, {
-    "name": "Shadow Demon",
-    "id": "shadow-demon",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Shadow Fiend",
-    "id": "shadow-fiend",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Nuker"
-    ]
-}, {
-    "name": "Shadow Shaman",
-    "id": "shadow-shaman",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Initiator",
-        "Nuker",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Silencer",
-    "id": "silencer",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Skywrath Mage",
-    "id": "skywrath-mage",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Slardar",
-    "id": "slardar",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Initiator"
-    ]
-}, {
-    "name": "Slark",
-    "id": "slark",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Nuker"
-    ]
-}, {
-    "name": "Sniper",
-    "id": "sniper",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Nuker"
-    ]
-}, {
-    "name": "Spectre",
-    "id": "spectre",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Durable",
-        "Escape"
-    ]
-}, {
-    "name": "Spirit Breaker",
-    "id": "spirit-breaker",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Initiator"
-    ]
-}, {
-    "name": "Storm Spirit",
-    "id": "storm-spirit",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Sven",
-    "id": "sven",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Techies",
-    "id": "techies",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker"
-    ]
-}, {
-    "name": "Templar Assassin",
-    "id": "templar-assassin",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Escape"
-    ]
-}, {
-    "name": "Terrorblade",
-    "id": "terrorblade",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Tidehunter",
-    "id": "tidehunter",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Timbersaw",
-    "id": "timbersaw",
-    "roles": [
-        "Melee",
-        "Durable",
-        "Escape",
-        "Nuker"
-    ]
-}, {
-    "name": "Tinker",
-    "id": "tinker",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Tiny",
-    "id": "tiny",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Nuker",
-        "Pusher"
-    ]
-}, {
-    "name": "Treant Protector",
-    "id": "treant-protector",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Escape",
-        "Initiator",
-        "Support"
-    ]
-}, {
-    "name": "Troll Warlord",
-    "id": "troll-warlord",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Pusher"
-    ]
-}, {
-    "name": "Tusk",
-    "id": "tusk",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Initiator",
-        "Nuker"
-    ]
-}, {
-    "name": "Undying",
-    "id": "undying",
-    "roles": [
-        "Melee",
-        "Disabler",
-        "Durable",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Ursa",
-    "id": "ursa",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Jungler"
-    ]
-}, {
-    "name": "Vengeful Spirit",
-    "id": "vengeful-spirit",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Escape",
-        "Initiator",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Venomancer",
-    "id": "venomancer",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Initiator",
-        "Nuker",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Viper",
-    "id": "viper",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator"
-    ]
-}, {
-    "name": "Visage",
-    "id": "visage",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Durable",
-        "Nuker",
-        "Pusher",
-        "Support"
-    ]
-}, {
-    "name": "Warlock",
-    "id": "warlock",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Initiator",
-        "Support"
-    ]
-}, {
-    "name": "Weaver",
-    "id": "weaver",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Escape"
-    ]
-}, {
-    "name": "Windranger",
-    "id": "windranger",
-    "roles": [
-        "Ranged",
-        "Carry",
-        "Disabler",
-        "Escape",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Winter Wyvern",
-    "id": "winter-wyvern",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Witch Doctor",
-    "id": "witch-doctor",
-    "roles": [
-        "Ranged",
-        "Disabler",
-        "Nuker",
-        "Support"
-    ]
-}, {
-    "name": "Wraith King",
-    "id": "wraith-king",
-    "roles": [
-        "Melee",
-        "Carry",
-        "Disabler",
-        "Durable",
-        "Initiator",
-        "Support"
-    ]
-}, {
-    "name": "Zeus",
-    "id": "zeus",
-    "roles": [
-        "Ranged",
-        "Nuker"
-    ]
-}]
+[
+    {
+        "name": "Abaddon",
+        "id": "abaddon",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Durable",
+            "Support"
+        ],
+        "speed": 310,
+        "armor": 1.38,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Alchemist",
+        "id": "alchemist",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 1.54,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Ancient Apparition",
+        "id": "ancient-apparition",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 1.8,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Anti-Mage",
+        "id": "anti-mage",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Escape",
+            "Nuker"
+        ],
+        "speed": 315,
+        "armor": 2.08,
+        "attackTime": 1.45
+    },
+    {
+        "name": "Arc Warden",
+        "id": "arc-warden",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Escape",
+            "Nuker"
+        ],
+        "speed": 295,
+        "armor": 0.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Axe",
+        "id": "axe",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Jungler"
+        ],
+        "speed": 290,
+        "armor": 1.8,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Bane",
+        "id": "bane",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Durable",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 310,
+        "armor": 4.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Batrider",
+        "id": "batrider",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Jungler"
+        ],
+        "speed": 290,
+        "armor": 2.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Beastmaster",
+        "id": "beastmaster",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 310,
+        "armor": 4.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Bloodseeker",
+        "id": "bloodseeker",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Jungler",
+            "Nuker"
+        ],
+        "speed": 290,
+        "armor": 3.36,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Bounty Hunter",
+        "id": "bounty-hunter",
+        "roles": [
+            "Melee",
+            "Escape",
+            "Nuker"
+        ],
+        "speed": 315,
+        "armor": 5.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Brewmaster",
+        "id": "brewmaster",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 300,
+        "armor": 2.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Bristleback",
+        "id": "bristleback",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 290,
+        "armor": 3.38,
+        "attackTime": 1.8
+    },
+    {
+        "name": "Broodmother",
+        "id": "broodmother",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Escape",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 295,
+        "armor": 2.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Centaur Warrunner",
+        "id": "centaur-warrunner",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 300,
+        "armor": 3.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Chaos Knight",
+        "id": "chaos-knight",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Pusher"
+        ],
+        "speed": 325,
+        "armor": 3.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Chen",
+        "id": "chen",
+        "roles": [
+            "Ranged",
+            "Jungler",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 300,
+        "armor": 1.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Clinkz",
+        "id": "clinkz",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Escape",
+            "Pusher"
+        ],
+        "speed": 300,
+        "armor": 2.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Clockwerk",
+        "id": "clockwerk",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 315,
+        "armor": 1.82,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Crystal Maiden",
+        "id": "crystal-maiden",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Jungler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 280,
+        "armor": 1.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Dark Seer",
+        "id": "dark-seer",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Jungler"
+        ],
+        "speed": 300,
+        "armor": 6.68,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Dazzle",
+        "id": "dazzle",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 305,
+        "armor": 1.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Death Prophet",
+        "id": "death-prophet",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 310,
+        "armor": 2.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Disruptor",
+        "id": "disruptor",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 300,
+        "armor": 1.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Doom",
+        "id": "doom",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 290,
+        "armor": 0.54,
+        "attackTime": 2
+    },
+    {
+        "name": "Dragon Knight",
+        "id": "dragon-knight",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 290,
+        "armor": 3.66,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Drow Ranger",
+        "id": "drow-ranger",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Pusher"
+        ],
+        "speed": 300,
+        "armor": 0.64,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Earth Spirit",
+        "id": "earth-spirit",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 295,
+        "armor": 3.38,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Earthshaker",
+        "id": "earthshaker",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 310,
+        "armor": 2.68,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Elder Titan",
+        "id": "elder-titan",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 315,
+        "armor": 2.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Ember Spirit",
+        "id": "ember-spirit",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 310,
+        "armor": 1.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Enchantress",
+        "id": "enchantress",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Durable",
+            "Jungler",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 335,
+        "armor": 0.66,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Enigma",
+        "id": "enigma",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Initiator",
+            "Jungler",
+            "Pusher"
+        ],
+        "speed": 300,
+        "armor": 3.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Faceless Void",
+        "id": "faceless-void",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Initiator"
+        ],
+        "speed": 300,
+        "armor": 4.22,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Gyrocopter",
+        "id": "gyrocopter",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Nuker"
+        ],
+        "speed": 315,
+        "armor": 4.36,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Huskar",
+        "id": "huskar",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Durable",
+            "Initiator"
+        ],
+        "speed": 300,
+        "armor": 1.1,
+        "attackTime": 1.6
+    },
+    {
+        "name": "Invoker",
+        "id": "invoker",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 280,
+        "armor": 0.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Io",
+        "id": "io",
+        "roles": [
+            "Ranged",
+            "Escape",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": -0.04,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Jakiro",
+        "id": "jakiro",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 290,
+        "armor": 2.4,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Juggernaut",
+        "id": "juggernaut",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Escape",
+            "Pusher"
+        ],
+        "speed": 305,
+        "armor": 3.64,
+        "attackTime": 1.4
+    },
+    {
+        "name": "Keeper of the Light",
+        "id": "keeper-of the light",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Jungler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 335,
+        "armor": 1.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Kunkka",
+        "id": "kunkka",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 300,
+        "armor": 3.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Legion Commander",
+        "id": "legion-commander",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 320,
+        "armor": 2.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Leshrac",
+        "id": "leshrac",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Nuker",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 320,
+        "armor": 3.22,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Lich",
+        "id": "lich",
+        "roles": [
+            "Ranged",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 315,
+        "armor": 1.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Lifestealer",
+        "id": "lifestealer",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Jungler"
+        ],
+        "speed": 315,
+        "armor": 1.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Lina",
+        "id": "lina",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 1.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Lion",
+        "id": "lion",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 290,
+        "armor": 1.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Lone Druid",
+        "id": "lone-druid",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Durable",
+            "Jungler",
+            "Pusher"
+        ],
+        "speed": 325,
+        "armor": 3.36,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Luna",
+        "id": "luna",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 330,
+        "armor": 3.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Lycan",
+        "id": "lycan",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Durable",
+            "Escape",
+            "Jungler",
+            "Pusher"
+        ],
+        "speed": 305,
+        "armor": 3.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Magnus",
+        "id": "magnus",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 315,
+        "armor": 4.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Medusa",
+        "id": "medusa",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Durable"
+        ],
+        "speed": 290,
+        "armor": 1.8,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Meepo",
+        "id": "meepo",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 315,
+        "armor": 4.22,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Mirana",
+        "id": "mirana",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 300,
+        "armor": 1.8,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Morphling",
+        "id": "morphling",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Nuker"
+        ],
+        "speed": 285,
+        "armor": 1.36,
+        "attackTime": 1.6
+    },
+    {
+        "name": "Naga Siren",
+        "id": "naga-siren",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 320,
+        "armor": 5.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Nature's Prophet",
+        "id": "natures-prophet",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Escape",
+            "Jungler",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 295,
+        "armor": 3.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Necrophos",
+        "id": "necrophos",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Nuker"
+        ],
+        "speed": 290,
+        "armor": 3.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Night Stalker",
+        "id": "night-stalker",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 295,
+        "armor": 5.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Nyx Assassin",
+        "id": "nyx-assassin",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 300,
+        "armor": 3.66,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Ogre Magi",
+        "id": "ogre-magi",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 7.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Omniknight",
+        "id": "omniknight",
+        "roles": [
+            "Melee",
+            "Durable",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 305,
+        "armor": 5.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Oracle",
+        "id": "oracle",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Escape",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 305,
+        "armor": 2.1,
+        "attackTime": 1.4
+    },
+    {
+        "name": "Outworld Devourer",
+        "id": "outworld-devourer",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Nuker"
+        ],
+        "speed": 315,
+        "armor": 5.36,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Phantom Assassin",
+        "id": "phantom-assassin",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Escape"
+        ],
+        "speed": 310,
+        "armor": 4.22,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Phantom Lancer",
+        "id": "phantom-lancer",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Escape",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 290,
+        "armor": 4.06,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Phoenix",
+        "id": "phoenix",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 285,
+        "armor": -0.32,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Puck",
+        "id": "puck",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 295,
+        "armor": 2.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Pudge",
+        "id": "pudge",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 285,
+        "armor": 0.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Pugna",
+        "id": "pugna",
+        "roles": [
+            "Ranged",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 330,
+        "armor": 1.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Queen of Pain",
+        "id": "queen-of pain",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Escape",
+            "Nuker"
+        ],
+        "speed": 295,
+        "armor": 1.52,
+        "attackTime": 1.6
+    },
+    {
+        "name": "Razor",
+        "id": "razor",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Durable",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 295,
+        "armor": 2.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Riki",
+        "id": "riki",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Escape"
+        ],
+        "speed": 290,
+        "armor": 4.76,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Rubick",
+        "id": "rubick",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 290,
+        "armor": 0.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Sand King",
+        "id": "sand-king",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Jungler",
+            "Nuker"
+        ],
+        "speed": 300,
+        "armor": 2.66,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Shadow Demon",
+        "id": "shadow-demon",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 2.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Shadow Fiend",
+        "id": "shadow-fiend",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Nuker"
+        ],
+        "speed": 305,
+        "armor": 0.8,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Shadow Shaman",
+        "id": "shadow-shaman",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Initiator",
+            "Nuker",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 285,
+        "armor": 1.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Silencer",
+        "id": "silencer",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 1.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Skywrath Mage",
+        "id": "skywrath-mage",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 325,
+        "armor": -0.18,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Slardar",
+        "id": "slardar",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Initiator"
+        ],
+        "speed": 295,
+        "armor": 5.38,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Slark",
+        "id": "slark",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Nuker"
+        ],
+        "speed": 305,
+        "armor": 1.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Sniper",
+        "id": "sniper",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Nuker"
+        ],
+        "speed": 290,
+        "armor": 1.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Spectre",
+        "id": "spectre",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Durable",
+            "Escape"
+        ],
+        "speed": 290,
+        "armor": 3.22,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Spirit Breaker",
+        "id": "spirit-breaker",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Initiator"
+        ],
+        "speed": 290,
+        "armor": 5.38,
+        "attackTime": 1.9
+    },
+    {
+        "name": "Storm Spirit",
+        "id": "storm-spirit",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 285,
+        "armor": 5.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Sven",
+        "id": "sven",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 290,
+        "armor": 4.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Techies",
+        "id": "techies",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker"
+        ],
+        "speed": 270,
+        "armor": 6.96,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Templar Assassin",
+        "id": "templar-assassin",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Escape"
+        ],
+        "speed": 305,
+        "armor": 4.22,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Terrorblade",
+        "id": "terrorblade",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 315,
+        "armor": 10.08,
+        "attackTime": 1.5
+    },
+    {
+        "name": "Tidehunter",
+        "id": "tidehunter",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 305,
+        "armor": 3.1,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Timbersaw",
+        "id": "timbersaw",
+        "roles": [
+            "Melee",
+            "Durable",
+            "Escape",
+            "Nuker"
+        ],
+        "speed": 290,
+        "armor": 0.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Tinker",
+        "id": "tinker",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 305,
+        "armor": 3.82,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Tiny",
+        "id": "tiny",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Nuker",
+            "Pusher"
+        ],
+        "speed": 285,
+        "armor": 0.26,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Treant Protector",
+        "id": "treant-protector",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Escape",
+            "Initiator",
+            "Support"
+        ],
+        "speed": 300,
+        "armor": 1.1,
+        "attackTime": 1.9
+    },
+    {
+        "name": "Troll Warlord",
+        "id": "troll-warlord",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Pusher"
+        ],
+        "speed": 300,
+        "armor": 1.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Tusk",
+        "id": "tusk",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Initiator",
+            "Nuker"
+        ],
+        "speed": 300,
+        "armor": 3.22,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Undying",
+        "id": "undying",
+        "roles": [
+            "Melee",
+            "Disabler",
+            "Durable",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 310,
+        "armor": 3.4,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Ursa",
+        "id": "ursa",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Jungler"
+        ],
+        "speed": 310,
+        "armor": 5.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Vengeful Spirit",
+        "id": "vengeful-spirit",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Escape",
+            "Initiator",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 300,
+        "armor": 3.78,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Venomancer",
+        "id": "venomancer",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Initiator",
+            "Nuker",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 285,
+        "armor": 3.08,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Viper",
+        "id": "viper",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator"
+        ],
+        "speed": 285,
+        "armor": 1.94,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Visage",
+        "id": "visage",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Durable",
+            "Nuker",
+            "Pusher",
+            "Support"
+        ],
+        "speed": 285,
+        "armor": -0.46,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Warlock",
+        "id": "warlock",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Initiator",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 2.4,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Weaver",
+        "id": "weaver",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Escape"
+        ],
+        "speed": 290,
+        "armor": 0.96,
+        "attackTime": 1.8
+    },
+    {
+        "name": "Windranger",
+        "id": "windranger",
+        "roles": [
+            "Ranged",
+            "Carry",
+            "Disabler",
+            "Escape",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 295,
+        "armor": 1.38,
+        "attackTime": 1.5
+    },
+    {
+        "name": "Winter Wyvern",
+        "id": "winter-wyvern",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 285,
+        "armor": 1.24,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Witch Doctor",
+        "id": "witch-doctor",
+        "roles": [
+            "Ranged",
+            "Disabler",
+            "Nuker",
+            "Support"
+        ],
+        "speed": 305,
+        "armor": 0.82,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Wraith King",
+        "id": "wraith-king",
+        "roles": [
+            "Melee",
+            "Carry",
+            "Disabler",
+            "Durable",
+            "Initiator",
+            "Support"
+        ],
+        "speed": 300,
+        "armor": 2.52,
+        "attackTime": 1.7
+    },
+    {
+        "name": "Zeus",
+        "id": "zeus",
+        "roles": [
+            "Ranged",
+            "Nuker"
+        ],
+        "speed": 295,
+        "armor": 1.54,
+        "attackTime": 1.7
+    }
+]
