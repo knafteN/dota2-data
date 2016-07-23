@@ -1,30 +1,30 @@
 [
     {
-        "name": "Power Treads",
-        "id": "power-treads",
-        "description": "Active: Switch Attribute - Changes selected attribute between Strength, Agility and Intelligence.Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.  Flat movement speed bonuses from multiple pairs of boots do not stack, nor does the attack speed bonus from multiple Power Treads.",
+        "name": "Abyssal Blade",
+        "id": "abyssal-blade",
+        "description": "Active: Overwhelm - Stuns a target enemy unit for 2.0 seconds. Pierces Spell Immunity.Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage, based on whether the equipped hero is ranged or melee.Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
+        "notes": "Doesn't stack with other bashes.The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.",
+        "price": "6400",
+        "cooldown": "35",
+        "manacost": "75"
+    },
+    {
+        "name": "Aegis of the Immortal",
+        "id": "aegis-of-the-immortal",
+        "description": "Passive: Reincarnation - Brings you to life with full health and mana 5.0 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage).",
         "notes": "",
-        "price": "1350",
+        "price": "No Cost",
         "cooldown": "",
         "manacost": ""
     },
     {
-        "name": "Town Portal Scroll",
-        "id": "town-portal scroll",
-        "description": "Use: Teleport - Teleports you to a target friendly building. Double-click to teleport to your team's base fountain.",
+        "name": "Aether Lens",
+        "id": "aether-lens",
+        "description": "Passive: Increases spell cast range by 200 and spell damage output by 5%",
         "notes": "",
-        "price": "50",
-        "cooldown": "70",
-        "manacost": "75"
-    },
-    {
-        "name": "Blink Dagger",
-        "id": "blink-dagger",
-        "description": "Active: Blink - Teleport to a target point up to 1200 units away.  If damage is taken, Blink Dagger cannot be used for 3.0 seconds.",
-        "notes": "If you used Blink to teleport to a distance over the maximum range, you'll be teleported 4/5 of the maximum range instead.",
-        "price": "2250",
-        "cooldown": "12",
-        "manacost": "0"
+        "price": "2300",
+        "cooldown": "",
+        "manacost": ""
     },
     {
         "name": "Aghanim's Scepter",
@@ -36,22 +36,13 @@
         "manacost": ""
     },
     {
-        "name": "Phase Boots",
-        "id": "phase-boots",
-        "description": "Active: Phase - Gives increased movement speed and lets you move through units.  The increased movement speed is based on whether the equipped hero is melee or ranged.Flat movement speed bonuses from multiple pairs of boots do not stack.",
+        "name": "Animal Courier",
+        "id": "animal-courier",
+        "description": "Use: Deploy Courier - Deploys a creature to carry items to and from your team's base.",
         "notes": "",
-        "price": "1240",
-        "cooldown": "8",
+        "price": "100",
+        "cooldown": "",
         "manacost": ""
-    },
-    {
-        "name": "Boots of Travel",
-        "id": "boots-of travel",
-        "description": "Active: Teleport - Teleports you to an allied non-hero unit or structure. Double-click to teleport to your team's base fountain. Upgradable to allow you to teleport to allied heroes.Flat movement speed bonuses from multiple pairs of boots do not stack.",
-        "notes": "",
-        "price": "2400",
-        "cooldown": "45",
-        "manacost": "75"
     },
     {
         "name": "Arcane Boots",
@@ -63,17 +54,53 @@
         "manacost": "0"
     },
     {
-        "name": "Magic Wand",
-        "id": "magic-wand",
-        "description": "Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability.",
-        "notes": "Certain abilities and item abilities will not add charges.",
-        "price": "465",
-        "cooldown": "13",
+        "name": "Armlet of Mordiggian",
+        "id": "armlet-of-mordiggian",
+        "description": "Active: Toggle Unholy Strength - When active, Unholy Strength grants +31 damage and +25 strength, but drains 45 health per second.  You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
+        "notes": "The strength change occurs over 0.6 seconds.Activating or deactiving Unholy Strength does not interrupt channeling.",
+        "price": "2370",
+        "cooldown": "0",
+        "manacost": ""
+    },
+    {
+        "name": "Assault Cuirass",
+        "id": "assault-cuirass",
+        "description": "Passive: Assault Aura - Grants attack speed and armor to nearby allied units and structures, and decreases the armor of nearby enemies.Multiple instances of Assault Aura do not stack.",
+        "notes": "",
+        "price": "5250",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Band of Elvenskin",
+        "id": "band-of-elvenskin",
+        "description": "",
+        "notes": "",
+        "price": "450",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Battle Fury",
+        "id": "battle-fury",
+        "description": "Active: Chop Tree/Ward - Destroy a target tree or ward. Chop cast range is increased when targetting wards.Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.Passive: Cleave - Deals a percent of attack damage in a 280 area around the target. Ranged units cannot Cleave.",
+        "notes": "Cleave damage goes through spell immunity.If multiple sources of Cleave are present, each Cleave's damage is applied separately.Chop can be used to destroy Techies' Land Mines and Remote Mines.",
+        "price": "4500",
+        "cooldown": "4",
+        "manacost": ""
+    },
+    {
+        "name": "Belt of Strength",
+        "id": "belt-of-strength",
+        "description": "",
+        "notes": "",
+        "price": "450",
+        "cooldown": "",
         "manacost": ""
     },
     {
         "name": "Black King Bar",
-        "id": "black-king bar",
+        "id": "black-king-bar",
         "description": "Active: Avatar - Grants Spell Immunity and 100% Magic Damage Resistance.  Duration and cooldown decrease with each use.  Some abilities are able to disable through Avatar.",
         "notes": "Using Black King Bar may remove some positive buffs.",
         "price": "3975",
@@ -90,314 +117,8 @@
         "manacost": "25"
     },
     {
-        "name": "Desolator",
-        "id": "desolator",
-        "description": "Passive: Corruption - Your attacks reduce target's armor for 15 seconds.Desolator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
-        "notes": "",
-        "price": "3500",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Tranquil Boots",
-        "id": "tranquil-boots",
-        "description": "Passive: Break - Whenever you attack or are attacked, the health regeneration and 30 Movement Speed are lost for 13 seconds.",
-        "notes": "",
-        "price": "900",
-        "cooldown": "13",
-        "manacost": "0"
-    },
-    {
-        "name": "Shadow Blade",
-        "id": "shadow-blade",
-        "description": "Active: Shadow Walk - Makes you invisible until the duration ends, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.  Lasts 14.0 seconds.",
-        "notes": "If the invisibility ends without attacking, the bonus damage is lost.",
-        "price": "2700",
-        "cooldown": "28",
-        "manacost": "75"
-    },
-    {
-        "name": "Bottle",
-        "id": "bottle",
-        "description": "Use: Regenerate - Consumes a charge to restore Health and Mana over time. Healing stops if attacked.  Bottle can be refilled at your team's fountain.  Runes can be stored in the Bottle for later use, and are activated automatically after 2 minutes.  If Bottle does not have full charges and is placed on a courier, the courier will move 30% slower.Hold Control to use Regenerate on an allied hero.  Stored runes cannot be shared.",
-        "notes": "",
-        "price": "660",
-        "cooldown": "0.5",
-        "manacost": ""
-    },
-    {
-        "name": "Battle Fury",
-        "id": "battle-fury",
-        "description": "Active: Chop Tree/Ward - Destroy a target tree or ward. Chop cast range is increased when targetting wards.Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.Passive: Cleave - Deals a percent of attack damage in a 280 area around the target. Ranged units cannot Cleave.",
-        "notes": "Cleave damage goes through spell immunity.If multiple sources of Cleave are present, each Cleave's damage is applied separately.Chop can be used to destroy Techies' Land Mines and Remote Mines.",
-        "price": "4500",
-        "cooldown": "4",
-        "manacost": ""
-    },
-    {
-        "name": "Sange and Yasha",
-        "id": "sange-and yasha",
-        "description": "Passive: Greater Maim - Each attack has a chance to slow the enemy's movement and attack speed for 5.0 seconds.Yasha-based movement speed bonuses from multiple items do not stack.",
-        "notes": "",
-        "price": "4100",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Helm of the Dominator",
-        "id": "helm-of the dominator",
-        "description": "Active: Dominate - Take control of a non-hero, non-ancient target unit and sets its movement speed to 350. If a dominated creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Helm of the Dominator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
-        "notes": "Selling or upgrading Helm of the Dominator will cause dominated units to die.",
-        "price": "1800",
-        "cooldown": "60",
-        "manacost": "75"
-    },
-    {
-        "name": "Ring of Aquila",
-        "id": "ring-of aquila",
-        "description": "Passive: Aquila Aura - Grants mana regeneration and armor in a 900 area of effect.Active: Toggle whether the aura affects other non-hero units.Multiple instances of Aquila Aura do not stack.",
-        "notes": "",
-        "price": "985",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Manta Style",
-        "id": "manta-style",
-        "description": "Active: Mirror Image - Creates 2 images of your hero that last 20 seconds. Melee heroes have a 30 second cooldown on this ability, while for Ranged heroes the cooldown is 45 seconds.Melee images deal 33% damage and take 350% damage, while Ranged images deal 28% and take 400% damage.Yasha-based movement speed bonuses from multiple items do not stack.",
-        "notes": "Many effects are removed upon using Manta.",
-        "price": "4950",
-        "cooldown": "45",
-        "manacost": "125"
-    },
-    {
-        "name": "Monkey King Bar",
-        "id": "monkey-king bar",
-        "description": "Passive: Mini-Bash - Grants each attack a chance to deal bonus damage and deal a mini-stun.Passive: True Strike - Prevents your attacks from missing. True Strike does not work when attacking enemy structures.",
-        "notes": "",
-        "price": "5400",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Aether Lens",
-        "id": "aether-lens",
-        "description": "Passive: Increases spell cast range by 200 and spell damage output by 5%",
-        "notes": "",
-        "price": "2300",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Eul's Scepter of Divinity",
-        "id": "euls-scepter of divinity",
-        "description": "Active: Cyclone - Sweeps a target unit up into cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself. Enemy units take 50 magical damage upon landing.",
-        "notes": "Cyclones cast on yourself go through spell immunity.Cyclone can purge some buffs and debuffs.",
-        "price": "2735",
-        "cooldown": "23",
-        "manacost": "175"
-    },
-    {
-        "name": "Force Staff",
-        "id": "force-staff",
-        "description": "Active: Force - Pushes any target unit 600 units in the direction it is facing.  Double click to instantly cast Force on yourself.",
-        "notes": "Force Staff doesn't interrupt the target's actions.Will not work on a unit inside Chronosphere, Duel, or Black Hole.",
-        "price": "2225",
-        "cooldown": "20",
-        "manacost": "25"
-    },
-    {
-        "name": "Vladmir's Offering",
-        "id": "vladmirs-offering",
-        "description": "Passive: Vladmir's Aura - Grants lifesteal, health regeneration, mana regeneration, bonus attack damage, and armor to allies in a 900 radius.  The lifesteal percentage is based on whether the hero affected by the aura is melee or ranged.Multiple instances of Vladmir's Aura do not stack.",
-        "notes": "",
-        "price": "2275",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Boots of Speed",
-        "id": "boots-of speed",
-        "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
-        "notes": "",
-        "price": "400",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Urn of Shadows",
-        "id": "urn-of shadows",
-        "description": "Active: Soul Release - Heals health over time to friendly units, but deals pure damage over time to enemy units.  The healing effect is lost if the affected ally takes damage from an enemy hero or tower.Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.",
-        "notes": "If used on a hero with Soul Release already active on them, it will refresh its duration.",
-        "price": "875",
-        "cooldown": "7",
-        "manacost": ""
-    },
-    {
-        "name": "Armlet of Mordiggian",
-        "id": "armlet-of mordiggian",
-        "description": "Active: Toggle Unholy Strength - When active, Unholy Strength grants +31 damage and +25 strength, but drains 40 health per second.  You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
-        "notes": "The strength change occurs over 0.6 seconds.Activating or deactiving Unholy Strength does not interrupt channeling.",
-        "price": "2320",
-        "cooldown": "0",
-        "manacost": ""
-    },
-    {
-        "name": "Heart of Tarrasque",
-        "id": "heart-of tarrasque",
-        "description": "Passive: Health Regeneration - Restores a percentage of max health per second. If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes.",
-        "notes": "",
-        "price": "5500",
-        "cooldown": "7",
-        "manacost": ""
-    },
-    {
-        "name": "Daedalus",
-        "id": "daedalus",
-        "description": "Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
-        "notes": "",
-        "price": "5520",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Dust of Appearance",
-        "id": "dust-of appearance",
-        "description": "Use: Reveals and slows invisible Heroes in a nearby area.",
-        "notes": "",
-        "price": "180",
-        "cooldown": "30",
-        "manacost": "5"
-    },
-    {
-        "name": "Hand of Midas",
-        "id": "hand-of midas",
-        "description": "Active: Transmute - Kills a non-hero target for 190 gold and 2.5x experience.  Cannot be used on Ancient Creeps.",
-        "notes": "Experience gained by using Transmute is not shared.",
-        "price": "2050",
-        "cooldown": "100",
-        "manacost": "0"
-    },
-    {
-        "name": "Assault Cuirass",
-        "id": "assault-cuirass",
-        "description": "Passive: Assault Aura - Grants attack speed and armor to nearby allied units and structures, and decreases the armor of nearby enemies.Multiple instances of Assault Aura do not stack.",
-        "notes": "",
-        "price": "5250",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Skull Basher",
-        "id": "skull-basher",
-        "description": "Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage, based on whether the equipped hero is ranged or melee.",
-        "notes": "The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.",
-        "price": "2700",
-        "cooldown": "2.3",
-        "manacost": ""
-    },
-    {
-        "name": "Echo Sabre",
-        "id": "echo-sabre",
-        "description": "Passive: Causes melee attacks to attack twice in quick succession. The double attacks apply a 0.6 second 100% movement and attack speed slow on each strike.",
-        "notes": "",
-        "price": "2650",
-        "cooldown": "5",
-        "manacost": "0"
-    },
-    {
-        "name": "Silver Edge",
-        "id": "silver-edge",
-        "description": "Active: Shadow Walk - Makes you invisible until the duration ends, or until you attack or cast a spell.  While invisible, you move 20% faster and can move through units.  Attacking to end the invisibility will deal 225 bonus damage to the target, disable their passive abilities, and reduce their damage output.",
-        "notes": "Backstab does not pierce spell immunity.",
-        "price": "5100",
-        "cooldown": "24",
-        "manacost": "75"
-    },
-    {
-        "name": "Linken's Sphere",
-        "id": "linkens-sphere",
-        "description": "Passive: Spellblock - Blocks most targeted spells once every 13.0 seconds.Active: Transfer Spellblock - Temporarily removes Spellblock from the item's owner and transfers it to an allied unit.",
-        "notes": "",
-        "price": "4800",
-        "cooldown": "13",
-        "manacost": ""
-    },
-    {
-        "name": "Drum of Endurance",
-        "id": "drum-of endurance",
-        "description": "Active: Endurance - Gives bonus +25 attack speed and +13% movement speed to allies in a 900 radius.Passive: Swiftness Aura - Gives bonus attack and movement speed to allies in a 900 radius.Multiple instances of Swiftness Aura do not stack.",
-        "notes": "",
-        "price": "1785",
-        "cooldown": "30",
-        "manacost": ""
-    },
-    {
-        "name": "Mekansm",
-        "id": "mekansm",
-        "description": "Active: Restore - Heals 250 health and gives +2 armor to allied units in a 900 radius.Passive: Mekansm Aura - Grants 4 health regeneration to allied units in a 900 radius.Multiple instances of Mekansm Aura do not stack.",
-        "notes": "",
-        "price": "2275",
-        "cooldown": "65",
-        "manacost": "225"
-    },
-    {
-        "name": "Abyssal Blade",
-        "id": "abyssal-blade",
-        "description": "Active: Overwhelm - Stuns a target enemy unit for 2.0 seconds. Pierces Spell Immunity.Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage, based on whether the equipped hero is ranged or melee.Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
-        "notes": "Doesn't stack with other bashes.The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.",
-        "price": "6400",
-        "cooldown": "35",
-        "manacost": "75"
-    },
-    {
-        "name": "Radiance",
-        "id": "radiance",
-        "description": "Active: Toggle Burn - When active, scorches nearby enemies for 50 damage per second and blinds them, causing them to miss 17% of their attacks.",
-        "notes": "",
-        "price": "5150",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Soul Ring",
-        "id": "soul-ring",
-        "description": "Active: Sacrifice - Consume 150 health to temporarily gain 150 mana.  Lasts 10 seconds.",
-        "notes": "",
-        "price": "775",
-        "cooldown": "30",
-        "manacost": "0"
-    },
-    {
-        "name": "Vanguard",
-        "id": "vanguard",
-        "description": "Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
-        "notes": "",
-        "price": "2150",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Crystalys",
-        "id": "crystalys",
-        "description": "Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
-        "notes": "",
-        "price": "2120",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Maelstrom",
-        "id": "maelstrom",
-        "description": "Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between 4 targets, dealing 120 magical damage to each.Maelstrom is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
-        "notes": "",
-        "price": "2800",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Ogre Club",
-        "id": "ogre-club",
+        "name": "Blade of Alacrity",
+        "id": "blade-of-alacrity",
         "description": "",
         "notes": "",
         "price": "1000",
@@ -405,398 +126,11 @@
         "manacost": ""
     },
     {
-        "name": "Guardian Greaves",
-        "id": "guardian-greaves",
-        "description": "Active: Mend - Restores 250 health and 160 mana to nearby allies, and removes most negative buffs from the caster.Passive: Guardian Aura - Provides nearby allies with 4 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 15 health regeneration and 15 armor.",
-        "notes": "",
-        "price": "5275",
-        "cooldown": "40",
-        "manacost": "0"
-    },
-    {
-        "name": "Observer Ward",
-        "id": "observer-ward",
-        "description": "Use: Plants an Observer Ward, an invisible watcher that gives vision of its surrounding area to your team. Lasts 6 minutes.Hold Control to give one Observer Ward to an allied hero.",
-        "notes": "",
-        "price": "65",
-        "cooldown": "1",
-        "manacost": ""
-    },
-    {
-        "name": "Null Talisman",
-        "id": "null-talisman",
+        "name": "Blades of Attack",
+        "id": "blades-of-attack",
         "description": "",
         "notes": "",
-        "price": "470",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Eye of Skadi",
-        "id": "eye-of skadi",
-        "description": "Passive: Cold Attack - Each attack slows the movement and attack speed of the target. The duration of the slow is based on whether the equipped hero is melee or ranged.Eye of Skadi is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.  Eye of Skadi can be combined with Lifesteal Attack Modifiers.",
-        "notes": "",
-        "price": "5675",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Mjollnir",
-        "id": "mjollnir",
-        "description": "Active: Static Charge - Places a charged shield on a target unit which has a 20% chance to release a shocking bolt at a nearby attacker and 4 additional enemies.Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between 12 targets, dealing 150 magical damage to each.Mjollnir is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
-        "notes": "Static Charge's shock deals magical damage centered on hero with the Static Charge. Static Charge's targets cannot be more than 900 range away.Static Charge procs will not bounce to heroes that are invisible or hidden by Fog of War.",
-        "price": "5700",
-        "cooldown": "35",
-        "manacost": "50"
-    },
-    {
-        "name": "Stout Shield",
-        "id": "stout-shield",
-        "description": "Passive: Damage Block - Gives a chance to block damage based on whether the equipped hero is melee or ranged.",
-        "notes": "",
-        "price": "200",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Butterfly",
-        "id": "butterfly",
-        "description": "Active: Flutter - Trade evasion for 35% additional movement speed for 4.0 seconds.Stacks diminishingly with other sources of Evasion.",
-        "notes": "",
-        "price": "5775",
-        "cooldown": "25",
-        "manacost": ""
-    },
-    {
-        "name": "Octarine Core",
-        "id": "octarine-core",
-        "description": "Passive: Cooldown Reduction - Reduces the cooldown time of all spells and items by 25%.Passive: Spell Lifesteal - A percentage of damage caused by spells is returned to the caster as health.",
-        "notes": "",
-        "price": "5900",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Quelling Blade",
-        "id": "quelling-blade",
-        "description": "Active: Chop Tree/Ward - Destroy a target tree or ward. Chop cast range is increased when targetting wards.Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.",
-        "notes": "Chop can be used to destroy Techies' Land Mines and Remote Mines.",
-        "price": "200",
-        "cooldown": "4",
-        "manacost": "0"
-    },
-    {
-        "name": "Orchid Malevolence",
-        "id": "orchid-malevolence",
-        "description": "Active: Soul Burn - Silences the target unit for 5.0 seconds. At the end of the silence, 30.0% of the damage received while silenced is inflicted as bonus magical damage.",
-        "notes": "",
-        "price": "4075",
-        "cooldown": "18",
-        "manacost": "100"
-    },
-    {
-        "name": "Poor Man's Shield",
-        "id": "poor-mans shield",
-        "description": "Passive: Damage Block - Blocks physical attack damage based on whether the equipped hero is ranged or melee.  Poor Man's Shield will always block attacks from enemy Heroes, but has a 53% chance to block damage from creeps.",
-        "notes": "",
-        "price": "500",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Point Booster",
-        "id": "point-booster",
-        "description": "",
-        "notes": "",
-        "price": "1200",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Moon Shard",
-        "id": "moon-shard",
-        "description": "Use: Consume the Moon Shard to permanently gain 60 attack speed. Does not stack.Passive: Shade Sight - Grants 250 bonus night vision.",
-        "notes": "",
-        "price": "4000",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Mask of Madness",
-        "id": "mask-of madness",
-        "description": "Active: Berserk - Gives 100 attack speed and 17% movement speed, but causes you to take extra 25% damage.  Lasts 12.0 seconds.Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Mask of Madness is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
-        "notes": "",
-        "price": "1800",
-        "cooldown": "25",
-        "manacost": "25"
-    },
-    {
-        "name": "Wind Lace",
-        "id": "wind-lace",
-        "description": "Passive: Gives increased movement speed.",
-        "notes": "",
-        "price": "235",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Ghost Scepter",
-        "id": "ghost-scepter",
-        "description": "Active: Ghost Form - Enter ghost form, becoming immune to physical damage, yet unable to attack and taking 40% extra magic damage.Using a Town Portal Scroll or Boots of Travel  will not dispel Ghost Form.",
-        "notes": "Shares cooldown with Ethereal Blade.",
-        "price": "1500",
-        "cooldown": "25",
-        "manacost": ""
-    },
-    {
-        "name": "Bloodstone",
-        "id": "bloodstone",
-        "description": "Active: Pocket Deny - Instantly causes you to die.Passive: Bloodpact - Begins with 12 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second, and reduces respawn time by 3 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges.",
-        "notes": "",
-        "price": "4875",
-        "cooldown": "300",
-        "manacost": ""
-    },
-    {
-        "name": "Gem of True Sight",
-        "id": "gem-of true sight",
-        "description": "Passive: True Sight - Adds the ability to see invisible units and wards to any allied vision within its carrier's range.Dropped on death, and cannot be destroyed.",
-        "notes": "",
-        "price": "900",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Yasha",
-        "id": "yasha",
-        "description": "Yasha-based movement speed bonuses from multiple items do not stack.",
-        "notes": "",
-        "price": "2050",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Shiva's Guard",
-        "id": "shivas-guard",
-        "description": "Active: Arctic Blast - Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4.0 seconds.Passive: Freezing Aura - Reduces the attack speed of all enemies in a 900 radius.Multiple instances of Freezing Aura do not stack.",
-        "notes": "The Arctic Blast follows its caster.",
-        "price": "4700",
-        "cooldown": "30",
-        "manacost": "100"
-    },
-    {
-        "name": "Veil of Discord",
-        "id": "veil-of discord",
-        "description": "Active: Magic Weakness - Emits a weakening blast that increases the magic damage enemies take. Lasts 16.0 seconds.",
-        "notes": "",
-        "price": "2240",
-        "cooldown": "20",
-        "manacost": "50"
-    },
-    {
-        "name": "Bloodthorn",
-        "id": "bloodthorn",
-        "description": "Active: Silences a target for 5.0 seconds and amplifies the damage it takes by 30.0%. All attacks on the silenced target will have True Strike and land a crit on impact.Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
-        "notes": "",
-        "price": "7195",
-        "cooldown": "11",
-        "manacost": "100"
-    },
-    {
-        "name": "Bracer",
-        "id": "bracer",
-        "description": "",
-        "notes": "",
-        "price": "525",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Observer and Sentry Wards",
-        "id": "observer-and sentry wards",
-        "description": "Double-Click to switch the currently active ward.Use: Plant the currently active ward to keep watch over an area. Observer Wards reveal their surrounding area to your team. Sentry Wards grant True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range.",
-        "notes": "",
-        "price": "265",
-        "cooldown": "0",
-        "manacost": ""
-    },
-    {
-        "name": "Orb of Venom",
-        "id": "orb-of venom",
-        "description": "Passive: Poison Attack - Poisons the target, dealing damage over time and slowing movement based on whether the equipped hero is melee or ranged.",
-        "notes": "",
-        "price": "275",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Staff of Wizardry",
-        "id": "staff-of wizardry",
-        "description": "",
-        "notes": "",
-        "price": "1000",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Crimson Guard",
-        "id": "crimson-guard",
-        "description": "Active: Guard - Grant nearby allied heroes a 100% chance to block 55 damage from each incoming attack, along with 2 armor. Lasts 10 seconds.Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
-        "notes": "Guard does not affect units that have been affected by Guard in the last 50 seconds.",
-        "price": "3550",
-        "cooldown": "50",
-        "manacost": ""
-    },
-    {
-        "name": "Refresher Orb",
-        "id": "refresher-orb",
-        "description": "Active: Reset Cooldowns - Resets the cooldowns of all your items and abilities.",
-        "notes": "",
-        "price": "5200",
-        "cooldown": "195",
-        "manacost": "375"
-    },
-    {
-        "name": "Diffusal Blade",
-        "id": "diffusal-blade",
-        "description": "Active: Purge - If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. If cast on an ally, Purge removes most debuffs.Passive: Manabreak - Each attack burns 40 mana from the target, and deals the same amount in physical damage. Burns 20 mana per attack from melee illusions and 10 mana per attack from ranged illusions. Does not stack with other manabreak abilities.Upgradable.",
-        "notes": "",
-        "price": "3150",
-        "cooldown": "2",
-        "manacost": "0"
-    },
-    {
-        "name": "Perseverance",
-        "id": "perseverance",
-        "description": "",
-        "notes": "",
-        "price": "1700",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Scythe of Vyse",
-        "id": "scythe-of vyse",
-        "description": "Active: Hex - Turns a target unit into a harmless critter for 3.5 seconds. Instantly destroys illusions.",
-        "notes": "",
-        "price": "5650",
-        "cooldown": "25",
-        "manacost": "100"
-    },
-    {
-        "name": "Magic Stick",
-        "id": "magic-stick",
-        "description": "Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 10) whenever a nearby visible enemy uses an ability.",
-        "notes": "Certain abilities and item abilities will not add charges.",
-        "price": "200",
-        "cooldown": "13",
-        "manacost": ""
-    },
-    {
-        "name": "Glimmer Cape",
-        "id": "glimmer-cape",
-        "description": "Active: Glimmer - After a 0.6 second delay, grants invisibility and 45% magic resistance to you or a target allied unit. Can be cast while channelling.",
-        "notes": "",
-        "price": "1850",
-        "cooldown": "16",
-        "manacost": "90"
-    },
-    {
-        "name": "Sentry Ward",
-        "id": "sentry-ward",
-        "description": "Use: Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range. Lasts 4 minutes.Hold Control to give one Sentry Ward to an allied hero.",
-        "notes": "",
-        "price": "200",
-        "cooldown": "1",
-        "manacost": ""
-    },
-    {
-        "name": "Dagon (level 5)",
-        "id": "dagon-(level 5)",
-        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit.",
-        "notes": "",
-        "price": "7720",
-        "cooldown": "35 30 25 20 15",
-        "manacost": "180"
-    },
-    {
-        "name": "Hyperstone",
-        "id": "hyperstone",
-        "description": "",
-        "notes": "",
-        "price": "2000",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Ring of Basilius",
-        "id": "ring-of basilius",
-        "description": "Passive: Basilius Aura - Grants mana regeneration and armor in a 900 area of effect.Active: Toggle whether the aura affects other non-hero units.Multiple instances of Basilius Aura do not stack.",
-        "notes": "",
-        "price": "500",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Pipe of Insight",
-        "id": "pipe-of insight",
-        "description": "Active: Barrier - Gives a shield that blocks 400 spell damage to all allies in a 900 radius.Passive: Insight Aura - Gives allied units 4 health regeneration and 10% magic resistance in a 900 radius.",
-        "notes": "Stacks multiplicatively with other sources of spell resistance.",
-        "price": "3100",
-        "cooldown": "60",
-        "manacost": "100"
-    },
-    {
-        "name": "Iron Branch",
-        "id": "iron-branch",
-        "description": "Active: Targets the ground to plant a happy little tree that lasts for 20 seconds.",
-        "notes": "",
-        "price": "50",
-        "cooldown": "0",
-        "manacost": ""
-    },
-    {
-        "name": "Mithril Hammer",
-        "id": "mithril-hammer",
-        "description": "",
-        "notes": "",
-        "price": "1600",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Satanic",
-        "id": "satanic",
-        "description": "Active: Unholy Rage - Increases Lifesteal percentage to 200% for 4.5 seconds.Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Satanic is a Unique Attack Modifier, and does not stack with other Unique Attack Modifier.",
-        "notes": "",
-        "price": "5900",
-        "cooldown": "35",
-        "manacost": ""
-    },
-    {
-        "name": "Tango",
-        "id": "tango",
-        "description": "Use: Eat a Tree or Ward - Consume a target tree or ward to gradually restore health.Comes with 4 charges.  Can be used on an allied hero to give them one Tango.",
-        "notes": "",
-        "price": "125",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Boots of Travel",
-        "id": "boots-of travel",
-        "description": "Active: Teleport - Teleports you to any allied structure or unit, including heroes. Double-click to teleport to your team's base fountain.Flat movement speed bonuses from multiple pairs of boots do not stack.",
-        "notes": "",
-        "price": "4400",
-        "cooldown": "45",
-        "manacost": "75"
-    },
-    {
-        "name": "Ultimate Orb",
-        "id": "ultimate-orb",
-        "description": "",
-        "notes": "",
-        "price": "2100",
+        "price": "420",
         "cooldown": "",
         "manacost": ""
     },
@@ -810,290 +144,74 @@
         "manacost": ""
     },
     {
-        "name": "Demon Edge",
-        "id": "demon-edge",
-        "description": "",
+        "name": "Blink Dagger",
+        "id": "blink-dagger",
+        "description": "Active: Blink - Teleport to a target point up to 1200 units away.  If damage is taken, Blink Dagger cannot be used for 3.0 seconds.",
+        "notes": "If you used Blink to teleport to a distance over the maximum range, you'll be teleported 4/5 of the maximum range instead.",
+        "price": "2250",
+        "cooldown": "12",
+        "manacost": "0"
+    },
+    {
+        "name": "Bloodstone",
+        "id": "bloodstone",
+        "description": "Active: Pocket Deny - Instantly causes you to die.Passive: Bloodpact - Begins with 12 charges, and gains a charge each time an enemy hero dies within 1675 range. Each charge grants 1 mana regeneration per second, and reduces respawn time by 3 seconds. If the bearer dies, 500 + 30 health per charge is restored to all allies within a 1675 radius, while the Bloodstone loses a third of its charges.",
+        "notes": "",
+        "price": "4875",
+        "cooldown": "300",
+        "manacost": ""
+    },
+    {
+        "name": "Bloodthorn",
+        "id": "bloodthorn",
+        "description": "Active: Silences a target for 5.0 seconds and amplifies the damage it takes by 30.0%. All attacks on the silenced target will have True Strike and land a crit on impact.Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
+        "notes": "",
+        "price": "7195",
+        "cooldown": "11",
+        "manacost": "100"
+    },
+    {
+        "name": "Boots of Speed",
+        "id": "boots-of-speed",
+        "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
+        "notes": "",
+        "price": "400",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Boots of Travel",
+        "id": "boots-of-travel",
+        "description": "Active: Teleport - Teleports you to an allied non-hero unit or structure. Double-click to teleport to your team's base fountain. Upgradable to allow you to teleport to allied heroes.Flat movement speed bonuses from multiple pairs of boots do not stack.",
         "notes": "",
         "price": "2400",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Diffusal Blade (level 2)",
-        "id": "diffusal-blade (level 2)",
-        "description": "Active: Purge - If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. If cast on an ally, Purge removes most debuffs.Passive: Manabreak - Each attack burns 40 mana from the target, and deals the same amount in physical damage. Burns 20 mana per attack from melee illusions and 10 mana per attack from ranged illusions. Does not stack with other manabreak abilities.",
-        "notes": "",
-        "price": "3850",
-        "cooldown": "2",
-        "manacost": "0"
-    },
-    {
-        "name": "Platemail",
-        "id": "platemail",
-        "description": "",
-        "notes": "",
-        "price": "1400",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Reaver",
-        "id": "reaver",
-        "description": "",
-        "notes": "",
-        "price": "3000",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Javelin",
-        "id": "javelin",
-        "description": "Passive: Pierce - Grants each attack a chance to deal bonus damage.",
-        "notes": "",
-        "price": "1500",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Vitality Booster",
-        "id": "vitality-booster",
-        "description": "",
-        "notes": "",
-        "price": "1100",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Divine Rapier",
-        "id": "divine-rapier",
-        "description": "Drops on death.  Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up. A dropped Rapier cannot be picked up by a courier.",
-        "notes": "",
-        "price": "6200",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Dragon Lance",
-        "id": "dragon-lance",
-        "description": "Passive: Increases attack range of ranged heroes by 130.",
-        "notes": "",
-        "price": "1900",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Necronomicon (level 3)",
-        "id": "necronomicon-(level 3)",
-        "description": "Active: Demonic Summoning - Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3.",
-        "notes": "",
-        "price": "5050",
-        "cooldown": "95",
-        "manacost": "50"
-    },
-    {
-        "name": "Mystic Staff",
-        "id": "mystic-staff",
-        "description": "",
-        "notes": "",
-        "price": "2700",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Aegis of the Immortal",
-        "id": "aegis-of the immortal",
-        "description": "Passive: Reincarnation - Brings you to life with full health and mana 5.0 seconds after you die, at the location where you died. Reincarnation must be used within 5 minutes or Aegis of the Immortal disappears. If it expires, it will heal you over 5 seconds (dispels on damage).",
-        "notes": "",
-        "price": "No Cost",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Ethereal Blade",
-        "id": "ethereal-blade",
-        "description": "Active: Ether Blast - Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack.  Can be cast on self.  If the target is an enemy, it is also slowed, and takes 2.0x your primary attribute + 75 as magical damage.Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.",
-        "notes": "Ethereal units take 40% bonus magic damage.Lasts an extra second on Self or Allied cast.",
-        "price": "4700",
-        "cooldown": "20",
-        "manacost": "100"
-    },
-    {
-        "name": "Iron Talon",
-        "id": "iron-talon",
-        "description": "Active: Targets a non-player enemy unit to remove 40% of its current HP.Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.",
-        "notes": "Cannot target ancients.",
-        "price": "500",
-        "cooldown": "14",
-        "manacost": "0"
-    },
-    {
-        "name": "Wraith Band",
-        "id": "wraith-band",
-        "description": "",
-        "notes": "",
-        "price": "485",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Hurricane Pike",
-        "id": "hurricane-pike",
-        "description": "Active: When used on an enemy, it pushes you both away from each other 450 units each, and allows you to attack the target without range restrictions for 4 attacks for a maximum of 5.0 seconds. Works like Force Staff when used on self or allies.Passive: Increases attack range of ranged heroes by 130.",
-        "notes": "Hurricane Pike doesn't interrupt the target's actions.Will not work on a unit inside Chronosphere, Duel or Black Hole.",
-        "price": "4375",
-        "cooldown": "14",
-        "manacost": "25"
-    },
-    {
-        "name": "Blade of Alacrity",
-        "id": "blade-of alacrity",
-        "description": "",
-        "notes": "",
-        "price": "1000",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Heaven's Halberd",
-        "id": "heavens-halberd",
-        "description": "Active: Disarm - Prevents a target from attacking. Lasts 3.0 seconds on melee targets, and 5.5 seconds on ranged targets.Passive: Lesser Maim - Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds.Stacks diminishingly with other sources of Evasion.",
-        "notes": "",
-        "price": "3750",
-        "cooldown": "30",
-        "manacost": "100"
-    },
-    {
-        "name": "Soul Booster",
-        "id": "soul-booster",
-        "description": "",
-        "notes": "",
-        "price": "3200",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Void Stone",
-        "id": "void-stone",
-        "description": "",
-        "notes": "",
-        "price": "850",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Solar Crest",
-        "id": "solar-crest",
-        "description": "Active: Shine - Temporarily removes the armor and evasion from Solar Crest. When cast on an ally it grants them 10 armor and 25% evasion. When cast on an enemy, it removes 10 of their armor and blinds them, causing them to miss 25% of their attacks. Cannot target magic immune enemies. Armor reduction is halved against Roshan.",
-        "notes": "",
-        "price": "2875",
-        "cooldown": "7",
-        "manacost": ""
-    },
-    {
-        "name": "Morbid Mask",
-        "id": "morbid-mask",
-        "description": "Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Morbid Mask is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
-        "notes": "",
-        "price": "900",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Dagon",
-        "id": "dagon",
-        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
-        "notes": "",
-        "price": "2720",
-        "cooldown": "35 30 25 20 15",
-        "manacost": "180"
-    },
-    {
-        "name": "Rod of Atos",
-        "id": "rod-of atos",
-        "description": "Active: Cripple - Slows the target's movement speed.",
-        "notes": "",
-        "price": "3100",
-        "cooldown": "12",
-        "manacost": "50"
-    },
-    {
-        "name": "Hood of Defiance",
-        "id": "hood-of defiance",
-        "description": "Active: Creates a spell shield that absorbs up to 325 magical damage.",
-        "notes": "",
-        "price": "1725",
-        "cooldown": "60",
+        "cooldown": "45",
         "manacost": "75"
     },
     {
-        "name": "Smoke of Deceit",
-        "id": "smoke-of deceit",
-        "description": "Use: Upon activation, the user and all nearby allied player-controlled units gain invisibility and bonus movement speed for a brief time.  Minimap icons will also be hidden.  Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility.",
+        "name": "Boots of Travel",
+        "id": "boots-of-travel",
+        "description": "Active: Teleport - Teleports you to any allied structure or unit, including heroes. Double-click to teleport to your team's base fountain.Flat movement speed bonuses from multiple pairs of boots do not stack.",
         "notes": "",
-        "price": "50",
-        "cooldown": "0",
+        "price": "4400",
+        "cooldown": "45",
+        "manacost": "75"
+    },
+    {
+        "name": "Bottle",
+        "id": "bottle",
+        "description": "Use: Regenerate - Consumes a charge to restore Health and Mana over time. Healing stops if attacked.  Bottle can be refilled at your team's fountain.  Runes can be stored in the Bottle for later use, and are activated automatically after 2 minutes.  If Bottle does not have full charges and is placed on a courier, the courier will move 30% slower.Hold Control to use Regenerate on an allied hero.  Stored runes cannot be shared.",
+        "notes": "",
+        "price": "660",
+        "cooldown": "0.5",
         "manacost": ""
     },
     {
-        "name": "Ring of Health",
-        "id": "ring-of health",
+        "name": "Bracer",
+        "id": "bracer",
         "description": "",
         "notes": "",
-        "price": "850",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Clarity",
-        "id": "clarity",
-        "description": "Use: Restores mana to the target unit over time.  If the unit is attacked, the effect is lost.",
-        "notes": "",
-        "price": "50",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Chainmail",
-        "id": "chainmail",
-        "description": "",
-        "notes": "",
-        "price": "550",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Headdress",
-        "id": "headdress",
-        "description": "Passive: Regeneration Aura - Restores health to allies in a 900 unit radius.Multiple instances of Regeneration Aura do not stack.",
-        "notes": "",
-        "price": "575",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Eaglesong",
-        "id": "eaglesong",
-        "description": "",
-        "notes": "",
-        "price": "3200",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Medallion of Courage",
-        "id": "medallion-of courage",
-        "description": "Active: Valor - If cast on an ally, increases their armor while reducing the caster's. If cast on an enemy, reduces the armor of both the enemy and the caster. Cannot target magic immune enemies. Armor reduction is halved against Roshan.",
-        "notes": "",
-        "price": "1175",
-        "cooldown": "7",
-        "manacost": ""
-    },
-    {
-        "name": "Gauntlets of Strength",
-        "id": "gauntlets-of strength",
-        "description": "",
-        "notes": "",
-        "price": "150",
+        "price": "525",
         "cooldown": "",
         "manacost": ""
     },
@@ -1107,186 +225,6 @@
         "manacost": ""
     },
     {
-        "name": "Oblivion Staff",
-        "id": "oblivion-staff",
-        "description": "",
-        "notes": "",
-        "price": "1650",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Healing Salve",
-        "id": "healing-salve",
-        "description": "Use: Restores health to the target unit over time.  If the unit is attacked, the effect is lost.",
-        "notes": "",
-        "price": "110",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Lotus Orb",
-        "id": "lotus-orb",
-        "description": "Active: Echo Shell - Applies a shield to the target unit which re-casts most targeted spells back to their caster. The shielded unit will still take damage from the spell. Dispels negative buffs when applied.",
-        "notes": "",
-        "price": "4000",
-        "cooldown": "15",
-        "manacost": "75"
-    },
-    {
-        "name": "Shadow Amulet",
-        "id": "shadow-amulet",
-        "description": "Active: Fade - Grants invisibility to you or a target allied hero after a 1.5 second fade time. Moving breaks the invisibility. There is no cooldown when using this item on yourself.",
-        "notes": "",
-        "price": "1300",
-        "cooldown": "10",
-        "manacost": "0"
-    },
-    {
-        "name": "Sange",
-        "id": "sange",
-        "description": "Passive: Lesser Maim - Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds.",
-        "notes": "",
-        "price": "2050",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Quarterstaff",
-        "id": "quarterstaff",
-        "description": "",
-        "notes": "",
-        "price": "875",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Dagon (level 3)",
-        "id": "dagon-(level 3)",
-        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
-        "notes": "",
-        "price": "5220",
-        "cooldown": "35 30 25 20 15",
-        "manacost": "180"
-    },
-    {
-        "name": "Gloves of Haste",
-        "id": "gloves-of haste",
-        "description": "",
-        "notes": "",
-        "price": "500",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Talisman of Evasion",
-        "id": "talisman-of evasion",
-        "description": "Stacks diminishingly with other sources of Evasion.",
-        "notes": "",
-        "price": "1700",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Dagon (level 2)",
-        "id": "dagon-(level 2)",
-        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
-        "notes": "",
-        "price": "3970",
-        "cooldown": "35 30 25 20 15",
-        "manacost": "180"
-    },
-    {
-        "name": "Dagon (level 4)",
-        "id": "dagon-(level 4)",
-        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
-        "notes": "",
-        "price": "6470",
-        "cooldown": "35 30 25 20 15",
-        "manacost": "180"
-    },
-    {
-        "name": "Belt of Strength",
-        "id": "belt-of strength",
-        "description": "",
-        "notes": "",
-        "price": "450",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Enchanted Mango",
-        "id": "enchanted-mango",
-        "description": "Use: Consume the mango to instantly restore 150 mana.Hold Control to use Enchanted Mango on an allied hero.",
-        "notes": "",
-        "price": "125",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Ring of Regen",
-        "id": "ring-of regen",
-        "description": "",
-        "notes": "",
-        "price": "325",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Claymore",
-        "id": "claymore",
-        "description": "",
-        "notes": "",
-        "price": "1400",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Energy Booster",
-        "id": "energy-booster",
-        "description": "",
-        "notes": "",
-        "price": "900",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Sacred Relic",
-        "id": "sacred-relic",
-        "description": "",
-        "notes": "",
-        "price": "3800",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Blades of Attack",
-        "id": "blades-of attack",
-        "description": "",
-        "notes": "",
-        "price": "420",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Cloak",
-        "id": "cloak",
-        "description": "",
-        "notes": "",
-        "price": "550",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Slippers of Agility",
-        "id": "slippers-of agility",
-        "description": "",
-        "notes": "",
-        "price": "150",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
         "name": "Buckler",
         "id": "buckler",
         "description": "Active: Armor Bonus - Gives +2 armor to all allied units in a 900 radius.  Lasts 25 seconds on heroes, 30 seconds on units.",
@@ -1296,65 +234,20 @@
         "manacost": "10"
     },
     {
-        "name": "Faerie Fire",
-        "id": "faerie-fire",
-        "description": "Use: Consume the Faerie Fire to instantly restore 75 HP",
+        "name": "Butterfly",
+        "id": "butterfly",
+        "description": "Active: Flutter - Trade evasion for 35% additional movement speed for 4.0 seconds.Stacks diminishingly with other sources of Evasion.",
         "notes": "",
-        "price": "75",
-        "cooldown": "5",
+        "price": "5775",
+        "cooldown": "25",
         "manacost": ""
     },
     {
-        "name": "Robe of the Magi",
-        "id": "robe-of the magi",
+        "name": "Chainmail",
+        "id": "chainmail",
         "description": "",
         "notes": "",
-        "price": "450",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Ring of Protection",
-        "id": "ring-of protection",
-        "description": "",
-        "notes": "",
-        "price": "175",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Circlet",
-        "id": "circlet",
-        "description": "",
-        "notes": "",
-        "price": "165",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Sage's Mask",
-        "id": "sages-mask",
-        "description": "",
-        "notes": "",
-        "price": "325",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Band of Elvenskin",
-        "id": "band-of elvenskin",
-        "description": "",
-        "notes": "",
-        "price": "450",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Mantle of Intelligence",
-        "id": "mantle-of intelligence",
-        "description": "",
-        "notes": "",
-        "price": "150",
+        "price": "550",
         "cooldown": "",
         "manacost": ""
     },
@@ -1368,6 +261,618 @@
         "manacost": ""
     },
     {
+        "name": "Circlet",
+        "id": "circlet",
+        "description": "",
+        "notes": "",
+        "price": "165",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Clarity",
+        "id": "clarity",
+        "description": "Use: Restores mana to the target unit over time.  If the unit is attacked, the effect is lost.",
+        "notes": "",
+        "price": "50",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Claymore",
+        "id": "claymore",
+        "description": "",
+        "notes": "",
+        "price": "1400",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Cloak",
+        "id": "cloak",
+        "description": "",
+        "notes": "",
+        "price": "550",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Crimson Guard",
+        "id": "crimson-guard",
+        "description": "Active: Guard - Grant nearby allied heroes a 100% chance to block 55 damage from each incoming attack, along with 2 armor. Lasts 10 seconds.Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
+        "notes": "Guard does not affect units that have been affected by Guard in the last 50 seconds.",
+        "price": "3550",
+        "cooldown": "46",
+        "manacost": ""
+    },
+    {
+        "name": "Crystalys",
+        "id": "crystalys",
+        "description": "Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
+        "notes": "",
+        "price": "2120",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Daedalus",
+        "id": "daedalus",
+        "description": "Passive: Critical Strike - Grants each attack a chance to deal additional damage. Critical Strike does not work against buildings.",
+        "notes": "",
+        "price": "5520",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Dagon",
+        "id": "dagon",
+        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
+        "notes": "",
+        "price": "2720",
+        "cooldown": "35 30 25 20 15",
+        "manacost": "180"
+    },
+    {
+        "name": "Dagon (level 2)",
+        "id": "dagon-(level-2)",
+        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
+        "notes": "",
+        "price": "3970",
+        "cooldown": "35 30 25 20 15",
+        "manacost": "180"
+    },
+    {
+        "name": "Dagon (level 3)",
+        "id": "dagon-(level-3)",
+        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
+        "notes": "",
+        "price": "5220",
+        "cooldown": "35 30 25 20 15",
+        "manacost": "180"
+    },
+    {
+        "name": "Dagon (level 4)",
+        "id": "dagon-(level-4)",
+        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit. Upgradable.",
+        "notes": "",
+        "price": "6470",
+        "cooldown": "35 30 25 20 15",
+        "manacost": "180"
+    },
+    {
+        "name": "Dagon (level 5)",
+        "id": "dagon-(level-5)",
+        "description": "Active: Energy Burst - Emits a powerful burst of magical damage upon a targeted enemy unit.",
+        "notes": "",
+        "price": "7720",
+        "cooldown": "35 30 25 20 15",
+        "manacost": "180"
+    },
+    {
+        "name": "Demon Edge",
+        "id": "demon-edge",
+        "description": "",
+        "notes": "",
+        "price": "2400",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Desolator",
+        "id": "desolator",
+        "description": "Passive: Corruption - Your attacks reduce target's armor for 15 seconds.Desolator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+        "notes": "",
+        "price": "3500",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Diffusal Blade",
+        "id": "diffusal-blade",
+        "description": "Active: Purge - If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. If cast on an ally, Purge removes most debuffs.Passive: Manabreak - Each attack burns 40 mana from the target, and deals the same amount in physical damage. Burns 20 mana per attack from melee illusions and 10 mana per attack from ranged illusions. Does not stack with other manabreak abilities.Upgradable.",
+        "notes": "",
+        "price": "3150",
+        "cooldown": "2",
+        "manacost": "0"
+    },
+    {
+        "name": "Diffusal Blade (level 2)",
+        "id": "diffusal-blade-(level-2)",
+        "description": "Active: Purge - If cast on an enemy, removes buffs from the target and slows it for 4.0 seconds. If cast on an ally, Purge removes most debuffs.Passive: Manabreak - Each attack burns 40 mana from the target, and deals the same amount in physical damage. Burns 20 mana per attack from melee illusions and 10 mana per attack from ranged illusions. Does not stack with other manabreak abilities.",
+        "notes": "",
+        "price": "3850",
+        "cooldown": "2",
+        "manacost": "0"
+    },
+    {
+        "name": "Divine Rapier",
+        "id": "divine-rapier",
+        "description": "Drops on death.  Becomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up. A dropped Rapier cannot be picked up by a courier.",
+        "notes": "",
+        "price": "6200",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Dragon Lance",
+        "id": "dragon-lance",
+        "description": "Passive: Increases attack range of ranged heroes by 140.",
+        "notes": "",
+        "price": "1900",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Dragon Lance",
+        "id": "dragon-lance",
+        "description": "Passive: Increases attack range of ranged heroes by 140.",
+        "notes": "",
+        "price": "No Cost",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Drum of Endurance",
+        "id": "drum-of-endurance",
+        "description": "Active: Endurance - Gives bonus +25 attack speed and +13% movement speed to allies in a 900 radius.Passive: Swiftness Aura - Gives bonus attack and movement speed to allies in a 900 radius.Multiple instances of Swiftness Aura do not stack.",
+        "notes": "",
+        "price": "1785",
+        "cooldown": "30",
+        "manacost": ""
+    },
+    {
+        "name": "Dust of Appearance",
+        "id": "dust-of-appearance",
+        "description": "Use: Reveals and slows invisible Heroes in a nearby area.",
+        "notes": "",
+        "price": "180",
+        "cooldown": "30",
+        "manacost": "5"
+    },
+    {
+        "name": "Eaglesong",
+        "id": "eaglesong",
+        "description": "",
+        "notes": "",
+        "price": "3200",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Echo Sabre",
+        "id": "echo-sabre",
+        "description": "Passive: Causes melee attacks to attack twice in quick succession. The double attacks apply a 0.6 second 100% movement and attack speed slow on each strike.",
+        "notes": "",
+        "price": "2650",
+        "cooldown": "5",
+        "manacost": "0"
+    },
+    {
+        "name": "Enchanted Mango",
+        "id": "enchanted-mango",
+        "description": "Use: Consume the mango to instantly restore 150 mana.Hold Control to use Enchanted Mango on an allied hero.",
+        "notes": "",
+        "price": "125",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Energy Booster",
+        "id": "energy-booster",
+        "description": "",
+        "notes": "",
+        "price": "900",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Ethereal Blade",
+        "id": "ethereal-blade",
+        "description": "Active: Ether Blast - Launches a projectile which converts the target to ethereal form, increasing any incoming magic damage they take, while rendering them immune to physical damage and unable to attack.  Can be cast on self.  If the target is an enemy, it is also slowed, and takes 2.0x your primary attribute + 75 as magical damage.Using a Town Portal Scroll or Boots of Travel will not dispel Ethereal Form.",
+        "notes": "Ethereal units take 40% bonus magic damage.Lasts an extra second on Self or Allied cast.",
+        "price": "4700",
+        "cooldown": "20",
+        "manacost": "100"
+    },
+    {
+        "name": "Eul's Scepter of Divinity",
+        "id": "euls-scepter-of-divinity",
+        "description": "Active: Cyclone - Sweeps a target unit up into cyclone, making them invulnerable for 2.5 seconds. Cyclone can be cast on yourself. Enemy units take 50 magical damage upon landing.",
+        "notes": "Cyclones cast on yourself go through spell immunity.Cyclone can purge some buffs and debuffs.",
+        "price": "2735",
+        "cooldown": "23",
+        "manacost": "175"
+    },
+    {
+        "name": "Eye of Skadi",
+        "id": "eye-of-skadi",
+        "description": "Passive: Cold Attack - Each attack slows the movement and attack speed of the target. The duration of the slow is based on whether the equipped hero is melee or ranged.Eye of Skadi is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.  Eye of Skadi can be combined with Lifesteal Attack Modifiers.",
+        "notes": "",
+        "price": "5675",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Faerie Fire",
+        "id": "faerie-fire",
+        "description": "Use: Consume the Faerie Fire to instantly restore 75 HP",
+        "notes": "",
+        "price": "75",
+        "cooldown": "5",
+        "manacost": ""
+    },
+    {
+        "name": "Faerie Fire",
+        "id": "faerie-fire",
+        "description": "Use: Consume the Faerie Fire to instantly restore 75 HP",
+        "notes": "",
+        "price": "No Cost",
+        "cooldown": "5",
+        "manacost": ""
+    },
+    {
+        "name": "Flying Courier",
+        "id": "flying-courier",
+        "description": "Upgrades your team's Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team's base.Requires a deployed Animal Courier.",
+        "notes": "",
+        "price": "150",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Force Staff",
+        "id": "force-staff",
+        "description": "Active: Force - Pushes any target unit 600 units in the direction it is facing.  Double click to instantly cast Force on yourself.",
+        "notes": "Force Staff doesn't interrupt the target's actions.Will not work on a unit inside Chronosphere, Duel, or Black Hole.",
+        "price": "2225",
+        "cooldown": "20",
+        "manacost": "25"
+    },
+    {
+        "name": "Gauntlets of Strength",
+        "id": "gauntlets-of-strength",
+        "description": "",
+        "notes": "",
+        "price": "150",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Gem of True Sight",
+        "id": "gem-of-true-sight",
+        "description": "Passive: True Sight - Adds the ability to see invisible units and wards to any allied vision within its carrier's range.Dropped on death, and cannot be destroyed.",
+        "notes": "",
+        "price": "900",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Ghost Scepter",
+        "id": "ghost-scepter",
+        "description": "Active: Ghost Form - Enter ghost form, becoming immune to physical damage, yet unable to attack and taking 40% extra magic damage.Using a Town Portal Scroll or Boots of Travel  will not dispel Ghost Form.",
+        "notes": "Shares cooldown with Ethereal Blade.",
+        "price": "1500",
+        "cooldown": "25",
+        "manacost": ""
+    },
+    {
+        "name": "Glimmer Cape",
+        "id": "glimmer-cape",
+        "description": "Active: Glimmer - After a 0.6 second delay, grants invisibility and 45% magic resistance to you or a target allied unit. Can be cast while channelling.",
+        "notes": "",
+        "price": "1850",
+        "cooldown": "16",
+        "manacost": "90"
+    },
+    {
+        "name": "Gloves of Haste",
+        "id": "gloves-of-haste",
+        "description": "",
+        "notes": "",
+        "price": "500",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Guardian Greaves",
+        "id": "guardian-greaves",
+        "description": "Active: Mend - Restores 250 health and 160 mana to nearby allies, and removes most negative buffs from the caster.Passive: Guardian Aura - Provides nearby allies with 4 health regeneration and 2 bonus armor. If an allied hero's health falls below 20%, they receive 15 health regeneration and 15 armor.",
+        "notes": "",
+        "price": "5275",
+        "cooldown": "40",
+        "manacost": "0"
+    },
+    {
+        "name": "Hand of Midas",
+        "id": "hand-of-midas",
+        "description": "Active: Transmute - Kills a non-hero target for 190 gold and 2.5x experience.  Cannot be used on Ancient Creeps.",
+        "notes": "Experience gained by using Transmute is not shared.",
+        "price": "2050",
+        "cooldown": "100",
+        "manacost": "0"
+    },
+    {
+        "name": "Headdress",
+        "id": "headdress",
+        "description": "Passive: Regeneration Aura - Restores health to allies in a 900 unit radius.Multiple instances of Regeneration Aura do not stack.",
+        "notes": "",
+        "price": "575",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Healing Salve",
+        "id": "healing-salve",
+        "description": "Use: Restores health to the target unit over time.  If the unit is attacked, the effect is lost.",
+        "notes": "",
+        "price": "110",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Heart of Tarrasque",
+        "id": "heart-of-tarrasque",
+        "description": "Passive: Health Regeneration - Restores a percentage of max health per second. If damage is taken from an enemy hero or Roshan, this ability is disabled for 5 seconds for melee heroes, or 7 seconds for ranged heroes.",
+        "notes": "",
+        "price": "5500",
+        "cooldown": "7",
+        "manacost": ""
+    },
+    {
+        "name": "Heaven's Halberd",
+        "id": "heavens-halberd",
+        "description": "Active: Disarm - Prevents a target from attacking. Lasts 3.0 seconds on melee targets, and 5.5 seconds on ranged targets.Passive: Lesser Maim - Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds.Stacks diminishingly with other sources of Evasion.",
+        "notes": "",
+        "price": "3750",
+        "cooldown": "30",
+        "manacost": "100"
+    },
+    {
+        "name": "Helm of Iron Will",
+        "id": "helm-of-iron-will",
+        "description": "",
+        "notes": "",
+        "price": "900",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Helm of the Dominator",
+        "id": "helm-of-the-dominator",
+        "description": "Active: Dominate - Take control of a non-hero, non-ancient target unit and sets its movement speed to 350. If a dominated creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Helm of the Dominator is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+        "notes": "Selling or upgrading Helm of the Dominator will cause dominated units to die.",
+        "price": "1800",
+        "cooldown": "60",
+        "manacost": "75"
+    },
+    {
+        "name": "Hood of Defiance",
+        "id": "hood-of-defiance",
+        "description": "Active: Creates a spell shield that absorbs up to 325 magical damage.",
+        "notes": "",
+        "price": "1725",
+        "cooldown": "60",
+        "manacost": "75"
+    },
+    {
+        "name": "Hurricane Pike",
+        "id": "hurricane-pike",
+        "description": "Active: When used on an enemy, it pushes you both away from each other 450 units each, and allows you to attack the target without range restrictions for 4 attacks for a maximum of 5.0 seconds. Grants 100 Attack Speed during the attacks. Works like Force Staff when used on self or allies.Passive: Increases attack range of ranged heroes by 140.",
+        "notes": "Hurricane Pike doesn't interrupt the target's actions.Will not work on a unit inside Chronosphere, Duel or Black Hole.",
+        "price": "4375",
+        "cooldown": "14",
+        "manacost": "25"
+    },
+    {
+        "name": "Hyperstone",
+        "id": "hyperstone",
+        "description": "",
+        "notes": "",
+        "price": "2000",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Infused Raindrop",
+        "id": "infused-raindrop",
+        "description": "Passive: Consumes a charge to block 120 magic damage from damage instances over 50 damage. Comes with 5 charges. When the charges are gone, the item disappear.",
+        "notes": "",
+        "price": "225",
+        "cooldown": "4",
+        "manacost": ""
+    },
+    {
+        "name": "Iron Branch",
+        "id": "iron-branch",
+        "description": "Active: Targets the ground to plant a happy little tree that lasts for 20 seconds.",
+        "notes": "",
+        "price": "50",
+        "cooldown": "0",
+        "manacost": ""
+    },
+    {
+        "name": "Iron Talon",
+        "id": "iron-talon",
+        "description": "Active: Targets a non-player enemy unit to remove 40% of its current HP.Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.",
+        "notes": "Cannot target ancients.",
+        "price": "500",
+        "cooldown": "14",
+        "manacost": "0"
+    },
+    {
+        "name": "Javelin",
+        "id": "javelin",
+        "description": "Passive: Pierce - Grants each attack a chance to deal bonus damage.",
+        "notes": "",
+        "price": "1500",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Linken's Sphere",
+        "id": "linkens-sphere",
+        "description": "Passive: Spellblock - Blocks most targeted spells once every 13.0 seconds.Active: Transfer Spellblock - Temporarily removes Spellblock from the item's owner and transfers it to an allied unit.",
+        "notes": "",
+        "price": "4800",
+        "cooldown": "13",
+        "manacost": ""
+    },
+    {
+        "name": "Lotus Orb",
+        "id": "lotus-orb",
+        "description": "Active: Echo Shell - Applies a shield to the target unit which re-casts most targeted spells back to their caster. The shielded unit will still take damage from the spell. Dispels negative buffs when applied.",
+        "notes": "",
+        "price": "4000",
+        "cooldown": "15",
+        "manacost": "75"
+    },
+    {
+        "name": "Maelstrom",
+        "id": "maelstrom",
+        "description": "Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between 4 targets, dealing 120 magical damage to each.Maelstrom is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
+        "notes": "",
+        "price": "2800",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Magic Stick",
+        "id": "magic-stick",
+        "description": "Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 10) whenever a nearby visible enemy uses an ability.",
+        "notes": "Certain abilities and item abilities will not add charges.",
+        "price": "200",
+        "cooldown": "13",
+        "manacost": ""
+    },
+    {
+        "name": "Magic Wand",
+        "id": "magic-wand",
+        "description": "Active: Energy Charge - Instantly restores health and mana based on the number of charges stored. Gains a charge (max 17) whenever a nearby visible enemy uses an ability.",
+        "notes": "Certain abilities and item abilities will not add charges.",
+        "price": "465",
+        "cooldown": "13",
+        "manacost": ""
+    },
+    {
+        "name": "Manta Style",
+        "id": "manta-style",
+        "description": "Active: Mirror Image - Creates 2 images of your hero that last 20 seconds. Melee heroes have a 30 second cooldown on this ability, while for Ranged heroes the cooldown is 45 seconds.Melee images deal 33% damage and take 350% damage, while Ranged images deal 28% and take 400% damage.Yasha-based movement speed bonuses from multiple items do not stack.",
+        "notes": "Many effects are removed upon using Manta.",
+        "price": "4950",
+        "cooldown": "45",
+        "manacost": "125"
+    },
+    {
+        "name": "Mantle of Intelligence",
+        "id": "mantle-of-intelligence",
+        "description": "",
+        "notes": "",
+        "price": "150",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Mask of Madness",
+        "id": "mask-of-madness",
+        "description": "Active: Berserk - Gives 100 attack speed and 17% movement speed, but causes you to take extra 25% damage.  Lasts 12.0 seconds.Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Mask of Madness is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+        "notes": "",
+        "price": "1800",
+        "cooldown": "25",
+        "manacost": "25"
+    },
+    {
+        "name": "Medallion of Courage",
+        "id": "medallion-of-courage",
+        "description": "Active: Valor - If cast on an ally, increases their armor while reducing the caster's. If cast on an enemy, reduces the armor of both the enemy and the caster. Cannot target magic immune enemies. Armor reduction is halved against Roshan.",
+        "notes": "",
+        "price": "1175",
+        "cooldown": "7",
+        "manacost": ""
+    },
+    {
+        "name": "Mekansm",
+        "id": "mekansm",
+        "description": "Active: Restore - Heals 250 health and gives +2 armor to allied units in a 900 radius.Passive: Mekansm Aura - Grants 4 health regeneration to allied units in a 900 radius.Multiple instances of Mekansm Aura do not stack.",
+        "notes": "",
+        "price": "2275",
+        "cooldown": "65",
+        "manacost": "225"
+    },
+    {
+        "name": "Mithril Hammer",
+        "id": "mithril-hammer",
+        "description": "",
+        "notes": "",
+        "price": "1600",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Mjollnir",
+        "id": "mjollnir",
+        "description": "Active: Static Charge - Places a charged shield on a target unit which has a 20% chance to release a shocking bolt at a nearby attacker and 4 additional enemies.Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between 12 targets, dealing 150 magical damage to each.Mjollnir is a Unique Attack Modifier that stacks with other Unique Attack Modifiers, but overrides them when Chain Lightning occurs.",
+        "notes": "Static Charge's shock deals magical damage centered on hero with the Static Charge. Static Charge's targets cannot be more than 900 range away.Static Charge procs will not bounce to heroes that are invisible or hidden by Fog of War.",
+        "price": "5700",
+        "cooldown": "35",
+        "manacost": "50"
+    },
+    {
+        "name": "Monkey King Bar",
+        "id": "monkey-king-bar",
+        "description": "Passive: Mini-Bash - Grants each attack a chance to deal bonus damage and deal a mini-stun.Passive: True Strike - Prevents your attacks from missing. True Strike does not work when attacking enemy structures.",
+        "notes": "",
+        "price": "5400",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Moon Shard",
+        "id": "moon-shard",
+        "description": "Use: Consume the Moon Shard to permanently gain 60 attack speed. Does not stack.Passive: Shade Sight - Grants 250 bonus night vision.",
+        "notes": "",
+        "price": "4000",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Morbid Mask",
+        "id": "morbid-mask",
+        "description": "Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Morbid Mask is a Unique Attack Modifier, and does not stack with other Unique Attack Modifiers.",
+        "notes": "",
+        "price": "900",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Mystic Staff",
+        "id": "mystic-staff",
+        "description": "",
+        "notes": "",
+        "price": "2700",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
         "name": "Necronomicon",
         "id": "necronomicon",
         "description": "Active: Demonic Summoning - Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable.",
@@ -1377,17 +882,8 @@
         "manacost": "50"
     },
     {
-        "name": "Helm of Iron Will",
-        "id": "helm-of iron will",
-        "description": "",
-        "notes": "",
-        "price": "900",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
         "name": "Necronomicon (level 2)",
-        "id": "necronomicon-(level 2)",
+        "id": "necronomicon-(level-2)",
         "description": "Active: Demonic Summoning - Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3. Upgradable.",
         "notes": "",
         "price": "3850",
@@ -1395,12 +891,444 @@
         "manacost": "50"
     },
     {
-        "name": "Infused Raindrop",
-        "id": "infused-raindrop",
-        "description": "Passive: Consumes a charge to block 120 magic damage from damage instances over 50 damage. Comes with 5 charges. When the charges are gone, the item disappear.",
+        "name": "Necronomicon (level 3)",
+        "id": "necronomicon-(level-3)",
+        "description": "Active: Demonic Summoning - Summons a Warrior and an Archer to fight for you for 40 seconds, whose strength and abilities increase as Necronomicon is upgraded. Warrior gains True Sight at level 3.",
         "notes": "",
-        "price": "225",
+        "price": "5050",
+        "cooldown": "95",
+        "manacost": "50"
+    },
+    {
+        "name": "Null Talisman",
+        "id": "null-talisman",
+        "description": "",
+        "notes": "",
+        "price": "470",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Oblivion Staff",
+        "id": "oblivion-staff",
+        "description": "",
+        "notes": "",
+        "price": "1650",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Observer Ward",
+        "id": "observer-ward",
+        "description": "Use: Plants an Observer Ward, an invisible watcher that gives vision of its surrounding area to your team. Lasts 6 minutes.Hold Control to give one Observer Ward to an allied hero.",
+        "notes": "",
+        "price": "65",
+        "cooldown": "1",
+        "manacost": ""
+    },
+    {
+        "name": "Observer and Sentry Wards",
+        "id": "observer-and-sentry-wards",
+        "description": "Double-Click to switch the currently active ward.Use: Plant the currently active ward to keep watch over an area. Observer Wards reveal their surrounding area to your team. Sentry Wards grant True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range.",
+        "notes": "",
+        "price": "265",
+        "cooldown": "0",
+        "manacost": ""
+    },
+    {
+        "name": "Octarine Core",
+        "id": "octarine-core",
+        "description": "Passive: Cooldown Reduction - Reduces the cooldown time of all spells and items by 25%.Passive: Spell Lifesteal - A percentage of damage caused by spells is returned to the caster as health.",
+        "notes": "",
+        "price": "5900",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Ogre Club",
+        "id": "ogre-club",
+        "description": "",
+        "notes": "",
+        "price": "1000",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Orb of Venom",
+        "id": "orb-of-venom",
+        "description": "Passive: Poison Attack - Poisons the target, dealing damage over time and slowing movement based on whether the equipped hero is melee or ranged.",
+        "notes": "",
+        "price": "275",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Orchid Malevolence",
+        "id": "orchid-malevolence",
+        "description": "Active: Soul Burn - Silences the target unit for 5.0 seconds. At the end of the silence, 30.0% of the damage received while silenced is inflicted as bonus magical damage.",
+        "notes": "",
+        "price": "4075",
+        "cooldown": "18",
+        "manacost": "100"
+    },
+    {
+        "name": "Perseverance",
+        "id": "perseverance",
+        "description": "",
+        "notes": "",
+        "price": "1700",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Phase Boots",
+        "id": "phase-boots",
+        "description": "Active: Phase - Gives increased movement speed and lets you move through units.  The increased movement speed is based on whether the equipped hero is melee or ranged.Flat movement speed bonuses from multiple pairs of boots do not stack.",
+        "notes": "",
+        "price": "1240",
+        "cooldown": "8",
+        "manacost": ""
+    },
+    {
+        "name": "Pipe of Insight",
+        "id": "pipe-of-insight",
+        "description": "Active: Barrier - Gives a shield that blocks 400 spell damage to all allies in a 900 radius.Passive: Insight Aura - Gives allied units 4 health regeneration and 10% magic resistance in a 900 radius.",
+        "notes": "Stacks multiplicatively with other sources of spell resistance.",
+        "price": "3100",
+        "cooldown": "60",
+        "manacost": "100"
+    },
+    {
+        "name": "Platemail",
+        "id": "platemail",
+        "description": "",
+        "notes": "",
+        "price": "1400",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Point Booster",
+        "id": "point-booster",
+        "description": "",
+        "notes": "",
+        "price": "1200",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Poor Man's Shield",
+        "id": "poor-mans-shield",
+        "description": "Passive: Damage Block - Blocks physical attack damage based on whether the equipped hero is ranged or melee.  Poor Man's Shield will always block attacks from enemy Heroes, but has a 53% chance to block damage from creeps.",
+        "notes": "",
+        "price": "500",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Power Treads",
+        "id": "power-treads",
+        "description": "Active: Switch Attribute - Changes selected attribute between Strength, Agility and Intelligence.Power Treads can be built using a Belt of Strength, Band of Elvenskin, or a Robe of the Magi.  Flat movement speed bonuses from multiple pairs of boots do not stack, nor does the attack speed bonus from multiple Power Treads.",
+        "notes": "",
+        "price": "1350",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Quarterstaff",
+        "id": "quarterstaff",
+        "description": "",
+        "notes": "",
+        "price": "875",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Quelling Blade",
+        "id": "quelling-blade",
+        "description": "Active: Chop Tree/Ward - Destroy a target tree or ward. Chop cast range is increased when targetting wards.Passive: Quell - Increases attack damage against non-hero units, based on whether the equipped hero is ranged or melee. Does not provide bonus damage against Roshan.",
+        "notes": "Chop can be used to destroy Techies' Land Mines and Remote Mines.",
+        "price": "200",
         "cooldown": "4",
+        "manacost": "0"
+    },
+    {
+        "name": "Radiance",
+        "id": "radiance",
+        "description": "Active: Toggle Burn - When active, scorches nearby enemies for 50 damage per second and blinds them, causing them to miss 17% of their attacks.",
+        "notes": "",
+        "price": "5150",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Reaver",
+        "id": "reaver",
+        "description": "",
+        "notes": "",
+        "price": "3000",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Refresher Orb",
+        "id": "refresher-orb",
+        "description": "Active: Reset Cooldowns - Resets the cooldowns of all your items and abilities.",
+        "notes": "",
+        "price": "5200",
+        "cooldown": "195",
+        "manacost": "375"
+    },
+    {
+        "name": "Ring of Aquila",
+        "id": "ring-of-aquila",
+        "description": "Passive: Aquila Aura - Grants mana regeneration and armor in a 900 area of effect.Active: Toggle whether the aura affects other non-hero units.Multiple instances of Aquila Aura do not stack.",
+        "notes": "",
+        "price": "985",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Ring of Basilius",
+        "id": "ring-of-basilius",
+        "description": "Passive: Basilius Aura - Grants mana regeneration and armor in a 900 area of effect.Active: Toggle whether the aura affects other non-hero units.Multiple instances of Basilius Aura do not stack.",
+        "notes": "",
+        "price": "500",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Ring of Health",
+        "id": "ring-of-health",
+        "description": "",
+        "notes": "",
+        "price": "850",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Ring of Protection",
+        "id": "ring-of-protection",
+        "description": "",
+        "notes": "",
+        "price": "175",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Ring of Regen",
+        "id": "ring-of-regen",
+        "description": "",
+        "notes": "",
+        "price": "325",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Robe of the Magi",
+        "id": "robe-of-the-magi",
+        "description": "",
+        "notes": "",
+        "price": "450",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Rod of Atos",
+        "id": "rod-of-atos",
+        "description": "Active: Cripple - Slows the target's movement speed.",
+        "notes": "",
+        "price": "3100",
+        "cooldown": "10",
+        "manacost": "50"
+    },
+    {
+        "name": "Sacred Relic",
+        "id": "sacred-relic",
+        "description": "",
+        "notes": "",
+        "price": "3800",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Sage's Mask",
+        "id": "sages-mask",
+        "description": "",
+        "notes": "",
+        "price": "325",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Sange",
+        "id": "sange",
+        "description": "Passive: Lesser Maim - Each attack has a chance to slow the enemy's movement and attack speed for 4.0 seconds.",
+        "notes": "",
+        "price": "2050",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Sange and Yasha",
+        "id": "sange-and-yasha",
+        "description": "Passive: Greater Maim - Each attack has a chance to slow the enemy's movement and attack speed for 5.0 seconds.Yasha-based movement speed bonuses from multiple items do not stack.",
+        "notes": "",
+        "price": "4100",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Satanic",
+        "id": "satanic",
+        "description": "Active: Unholy Rage - Increases Lifesteal percentage to 200% for 4.5 seconds.Passive: Lifesteal - Heals the attacker for a percentage of attack damage dealt.Satanic is a Unique Attack Modifier, and does not stack with other Unique Attack Modifier.",
+        "notes": "",
+        "price": "5900",
+        "cooldown": "35",
+        "manacost": ""
+    },
+    {
+        "name": "Scythe of Vyse",
+        "id": "scythe-of-vyse",
+        "description": "Active: Hex - Turns a target unit into a harmless critter for 3.5 seconds. Instantly destroys illusions.",
+        "notes": "",
+        "price": "5650",
+        "cooldown": "25",
+        "manacost": "100"
+    },
+    {
+        "name": "Sentry Ward",
+        "id": "sentry-ward",
+        "description": "Use: Plants a Sentry Ward, an invisible watcher that grants True Sight, the ability to see invisible enemy units and wards, to any existing allied vision within its range. Lasts 4 minutes.Hold Control to give one Sentry Ward to an allied hero.",
+        "notes": "",
+        "price": "200",
+        "cooldown": "1",
+        "manacost": ""
+    },
+    {
+        "name": "Shadow Amulet",
+        "id": "shadow-amulet",
+        "description": "Active: Fade - Grants invisibility to you or a target allied hero after a 1.5 second fade time. Moving breaks the invisibility. There is no cooldown when using this item on yourself.",
+        "notes": "",
+        "price": "1300",
+        "cooldown": "10",
+        "manacost": "0"
+    },
+    {
+        "name": "Shadow Blade",
+        "id": "shadow-blade",
+        "description": "Active: Shadow Walk - Makes you invisible until the duration ends, or until you attack or cast a spell.  While Shadow Walk is active, you move 20% faster and can move through units.  If attacking to end the invisibility, you gain 175 bonus damage on that attack.  Lasts 14.0 seconds.",
+        "notes": "If the invisibility ends without attacking, the bonus damage is lost.",
+        "price": "2700",
+        "cooldown": "28",
+        "manacost": "75"
+    },
+    {
+        "name": "Shiva's Guard",
+        "id": "shivas-guard",
+        "description": "Active: Arctic Blast - Emits a freezing wave that deals 200 magical damage to enemies and slows their movement by -40% for 4.0 seconds.Passive: Freezing Aura - Reduces the attack speed of all enemies in a 900 radius.Multiple instances of Freezing Aura do not stack.",
+        "notes": "The Arctic Blast follows its caster.",
+        "price": "4700",
+        "cooldown": "30",
+        "manacost": "100"
+    },
+    {
+        "name": "Silver Edge",
+        "id": "silver-edge",
+        "description": "Active: Shadow Walk - Makes you invisible until the duration ends, or until you attack or cast a spell.  While invisible, you move 20% faster and can move through units.  Attacking to end the invisibility will deal 225 bonus damage to the target, disable their passive abilities, and reduce their damage output.",
+        "notes": "Backstab does not pierce spell immunity.",
+        "price": "5100",
+        "cooldown": "24",
+        "manacost": "75"
+    },
+    {
+        "name": "Skull Basher",
+        "id": "skull-basher",
+        "description": "Passive: Bash - Grants each attack a chance to stun the target for 1.4 seconds and deal 85 bonus damage, based on whether the equipped hero is ranged or melee.",
+        "notes": "The following heroes cannot trigger Bash on this item: Spirit Breaker, Faceless Void, Slardar, and Troll Warlord.",
+        "price": "2700",
+        "cooldown": "2.3",
+        "manacost": ""
+    },
+    {
+        "name": "Slippers of Agility",
+        "id": "slippers-of-agility",
+        "description": "",
+        "notes": "",
+        "price": "150",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Smoke of Deceit",
+        "id": "smoke-of-deceit",
+        "description": "Use: Upon activation, the user and all nearby allied player-controlled units gain invisibility and bonus movement speed for a brief time.  Minimap icons will also be hidden.  Attacking, or moving within 1025 range of an enemy hero or tower, will break the invisibility.",
+        "notes": "",
+        "price": "50",
+        "cooldown": "1",
+        "manacost": ""
+    },
+    {
+        "name": "Solar Crest",
+        "id": "solar-crest",
+        "description": "Active: Shine - Temporarily removes the armor and evasion from Solar Crest. When cast on an ally it grants them 10 armor and 25% evasion. When cast on an enemy, it removes 10 of their armor and blinds them, causing them to miss 25% of their attacks. Cannot target magic immune enemies. Armor reduction is halved against Roshan.",
+        "notes": "",
+        "price": "2875",
+        "cooldown": "7",
+        "manacost": ""
+    },
+    {
+        "name": "Soul Booster",
+        "id": "soul-booster",
+        "description": "",
+        "notes": "",
+        "price": "3200",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Soul Ring",
+        "id": "soul-ring",
+        "description": "Active: Sacrifice - Consume 150 health to temporarily gain 150 mana.  Lasts 10 seconds.",
+        "notes": "",
+        "price": "775",
+        "cooldown": "30",
+        "manacost": "0"
+    },
+    {
+        "name": "Staff of Wizardry",
+        "id": "staff-of-wizardry",
+        "description": "",
+        "notes": "",
+        "price": "1000",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Stout Shield",
+        "id": "stout-shield",
+        "description": "Passive: Damage Block - Gives a chance to block damage based on whether the equipped hero is melee or ranged.",
+        "notes": "",
+        "price": "200",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Talisman of Evasion",
+        "id": "talisman-of-evasion",
+        "description": "Stacks diminishingly with other sources of Evasion.",
+        "notes": "",
+        "price": "1700",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Tango",
+        "id": "tango",
+        "description": "Use: Eat a Tree or Ward - Consume a target tree or ward to gradually restore health.Comes with 4 charges.  Can be used on an allied hero to give them one Tango.",
+        "notes": "",
+        "price": "125",
+        "cooldown": "",
         "manacost": ""
     },
     {
@@ -1414,7 +1342,7 @@
     },
     {
         "name": "Tome of Knowledge",
-        "id": "tome-of knowledge",
+        "id": "tome-of-knowledge",
         "description": "Use: Grants you experience.",
         "notes": "",
         "price": "150",
@@ -1422,83 +1350,110 @@
         "manacost": ""
     },
     {
-        "name": "Animal Courier",
-        "id": "animal-courier",
-        "description": "Use: Deploy Courier - Deploys a creature to carry items to and from your team's base.",
+        "name": "Town Portal Scroll",
+        "id": "town-portal-scroll",
+        "description": "Use: Teleport - Teleports you to a target friendly building. Double-click to teleport to your team's base fountain.",
         "notes": "",
-        "price": "100",
-        "cooldown": "",
-        "manacost": ""
+        "price": "50",
+        "cooldown": "70",
+        "manacost": "75"
     },
     {
-        "name": "Flying Courier",
-        "id": "flying-courier",
-        "description": "Upgrades your team's Animal Courier to a Flying Courier, granting it swift, unobstructed movement to carry items to and from your team's base.Requires a deployed Animal Courier.",
+        "name": "Tranquil Boots",
+        "id": "tranquil-boots",
+        "description": "Passive: Break - Whenever you attack or are attacked, the health regeneration and 30 Movement Speed are lost for 13 seconds.",
         "notes": "",
-        "price": "150",
-        "cooldown": "",
-        "manacost": ""
+        "price": "900",
+        "cooldown": "13",
+        "manacost": "0"
     },
     {
-        "name": "River Vial: Chrome",
-        "id": "river-vial: chrome",
-        "description": "Pour this serum into the river to transform the water into liquid chrome for 10 minutes. Using this item on the river will permanently consume one charge from your Armory supply. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. Only one Vial can affect the river at a time.",
-        "notes": "",
-        "price": "No Cost",
-        "cooldown": "0",
-        "manacost": ""
-    },
-    {
-        "name": "River Vial: Dry",
-        "id": "river-vial: dry",
-        "description": "Pour this serum into the river to dry up the water for 10 minutes. Using this item on the river will permanently consume one charge from your Armory supply. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. Only one Vial can affect the river at a time.",
-        "notes": "",
-        "price": "No Cost",
-        "cooldown": "0",
-        "manacost": ""
-    },
-    {
-        "name": "Faerie Fire",
-        "id": "faerie-fire",
-        "description": "Use: Consume the Faerie Fire to instantly restore 75 HP",
-        "notes": "",
-        "price": "No Cost",
-        "cooldown": "5",
-        "manacost": ""
-    },
-    {
-        "name": "Dragon Lance",
-        "id": "dragon-lance",
-        "description": "Passive: Increases attack range of ranged heroes by 130.",
-        "notes": "",
-        "price": "No Cost",
-        "cooldown": "",
-        "manacost": ""
-    },
-    {
-        "name": "Recipe: Dragon Lance",
-        "id": "recipe:-dragon lance",
+        "name": "Ultimate Orb",
+        "id": "ultimate-orb",
         "description": "",
         "notes": "",
-        "price": "No Cost",
+        "price": "2100",
         "cooldown": "",
         "manacost": ""
     },
     {
-        "name": "River Vial: Potion",
-        "id": "river-vial: potion",
-        "description": "Pour this serum into the river to transform the water into a purple bubbling potion for 10 minutes. Using this item on the river will permanently consume one charge from your Armory supply. Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. Only one Vial can affect the river at a time.",
-        "notes": "",
-        "price": "No Cost",
-        "cooldown": "0",
+        "name": "Urn of Shadows",
+        "id": "urn-of-shadows",
+        "description": "Active: Soul Release - Heals health over time to friendly units, but deals pure damage over time to enemy units.  The healing effect is lost if the affected ally takes damage from an enemy hero or tower.Gains charges every time an enemy hero dies within 1400 units.  Only the closest Urn to the dying hero will gain a charge.",
+        "notes": "If used on a hero with Soul Release already active on them, it will refresh its duration.",
+        "price": "875",
+        "cooldown": "7",
         "manacost": ""
     },
     {
-        "name": "Recipe: Aether Lens",
-        "id": "recipe:-aether lens",
+        "name": "Vanguard",
+        "id": "vanguard",
+        "description": "Passive: Damage Block - Makes the wielder block damage from each incoming attack based on whether the equipped hero is melee or ranged.",
+        "notes": "",
+        "price": "2150",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Veil of Discord",
+        "id": "veil-of-discord",
+        "description": "Active: Magic Weakness - Emits a weakening blast that increases the magic damage enemies take. Lasts 16.0 seconds.",
+        "notes": "",
+        "price": "2240",
+        "cooldown": "20",
+        "manacost": "50"
+    },
+    {
+        "name": "Vitality Booster",
+        "id": "vitality-booster",
         "description": "",
         "notes": "",
-        "price": "No Cost",
+        "price": "1100",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Vladmir's Offering",
+        "id": "vladmirs-offering",
+        "description": "Passive: Vladmir's Aura - Grants lifesteal, health regeneration, mana regeneration, bonus attack damage, and armor to allies in a 900 radius.  The lifesteal percentage is based on whether the hero affected by the aura is melee or ranged.Multiple instances of Vladmir's Aura do not stack.",
+        "notes": "",
+        "price": "2275",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Void Stone",
+        "id": "void-stone",
+        "description": "",
+        "notes": "",
+        "price": "850",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Wind Lace",
+        "id": "wind-lace",
+        "description": "Passive: Gives increased movement speed.",
+        "notes": "",
+        "price": "235",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Wraith Band",
+        "id": "wraith-band",
+        "description": "",
+        "notes": "",
+        "price": "485",
+        "cooldown": "",
+        "manacost": ""
+    },
+    {
+        "name": "Yasha",
+        "id": "yasha",
+        "description": "Yasha-based movement speed bonuses from multiple items do not stack.",
+        "notes": "",
+        "price": "2050",
         "cooldown": "",
         "manacost": ""
     }

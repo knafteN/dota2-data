@@ -8,9 +8,32 @@
             "Durable",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 23,
+                "gain": 2.7
+            },
+            "agi": {
+                "value": 17,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 21,
+                "gain": 2
+            }
+        },
         "speed": 310,
         "armor": 1.38,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            55,
+            65
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Alchemist",
@@ -24,9 +47,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 25,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 11,
+                "gain": 1.2
+            },
+            "int": {
+                "value": 25,
+                "gain": 1.8
+            }
+        },
         "speed": 295,
         "armor": 1.54,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            49,
+            58
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Ancient Apparition",
@@ -37,9 +83,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 18,
+                "gain": 1.4
+            },
+            "agi": {
+                "value": 20,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 25,
+                "gain": 2.6
+            }
+        },
         "speed": 295,
         "armor": 1.8,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Anti-Mage",
@@ -50,9 +119,32 @@
             "Escape",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 22,
+                "gain": 1.2
+            },
+            "agi": {
+                "value": 22,
+                "gain": 2.8
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.8
+            }
+        },
         "speed": 315,
         "armor": 2.08,
-        "attackTime": 1.45
+        "attackTime": 1.45,
+        "damage": [
+            49,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Arc Warden",
@@ -63,9 +155,32 @@
             "Escape",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 24,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.8
+            },
+            "int": {
+                "value": 24,
+                "gain": 2.6
+            }
+        },
         "speed": 295,
         "armor": 0.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Axe",
@@ -77,9 +192,32 @@
             "Initiator",
             "Jungler"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 25,
+                "gain": 2.5
+            },
+            "agi": {
+                "value": 20,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 18,
+                "gain": 1.6
+            }
+        },
         "speed": 290,
         "armor": 1.8,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            49,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Bane",
@@ -91,9 +229,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 22,
+                "gain": 2.1
+            },
+            "agi": {
+                "value": 22,
+                "gain": 2.1
+            },
+            "int": {
+                "value": 22,
+                "gain": 2.1
+            }
+        },
         "speed": 310,
         "armor": 4.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            55,
+            61
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Batrider",
@@ -105,9 +266,32 @@
             "Initiator",
             "Jungler"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 23,
+                "gain": 2.4
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 24,
+                "gain": 2.5
+            }
+        },
         "speed": 290,
         "armor": 2.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            38,
+            42
+        ],
+        "sight": [
+            1200,
+            800
+        ]
     },
     {
         "name": "Beastmaster",
@@ -119,9 +303,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 23,
+                "gain": 2.2
+            },
+            "agi": {
+                "value": 18,
+                "gain": 1.6
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.9
+            }
+        },
         "speed": 310,
         "armor": 4.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            64,
+            68
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Bloodseeker",
@@ -134,9 +341,32 @@
             "Jungler",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 23,
+                "gain": 2.4
+            },
+            "agi": {
+                "value": 24,
+                "gain": 3
+            },
+            "int": {
+                "value": 18,
+                "gain": 1.7
+            }
+        },
         "speed": 290,
         "armor": 3.36,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            53,
+            59
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Bounty Hunter",
@@ -146,9 +376,32 @@
             "Escape",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 17,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 21,
+                "gain": 3
+            },
+            "int": {
+                "value": 19,
+                "gain": 2
+            }
+        },
         "speed": 315,
         "armor": 5.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            45,
+            59
+        ],
+        "sight": [
+            1800,
+            1000
+        ]
     },
     {
         "name": "Brewmaster",
@@ -161,9 +414,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 23,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 22,
+                "gain": 1.95
+            },
+            "int": {
+                "value": 14,
+                "gain": 1.25
+            }
+        },
         "speed": 300,
         "armor": 2.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            52,
+            59
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Bristleback",
@@ -175,9 +451,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 2.2
+            },
+            "agi": {
+                "value": 17,
+                "gain": 1.8
+            },
+            "int": {
+                "value": 14,
+                "gain": 2.8
+            }
+        },
         "speed": 290,
         "armor": 3.38,
-        "attackTime": 1.8
+        "attackTime": 1.8,
+        "damage": [
+            48,
+            58
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Broodmother",
@@ -189,9 +488,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 17,
+                "gain": 2.5
+            },
+            "agi": {
+                "value": 18,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 18,
+                "gain": 2
+            }
+        },
         "speed": 295,
         "armor": 2.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            50
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Centaur Warrunner",
@@ -204,9 +526,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 23,
+                "gain": 4
+            },
+            "agi": {
+                "value": 15,
+                "gain": 2
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.6
+            }
+        },
         "speed": 300,
         "armor": 3.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            55,
+            57
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Chaos Knight",
@@ -219,9 +564,32 @@
             "Initiator",
             "Pusher"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 20,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 14,
+                "gain": 2.1
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.2
+            }
+        },
         "speed": 325,
         "armor": 3.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            49,
+            79
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Chen",
@@ -232,9 +600,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 23,
+                "gain": 1.5
+            },
+            "agi": {
+                "value": 15,
+                "gain": 2.1
+            },
+            "int": {
+                "value": 21,
+                "gain": 2.8
+            }
+        },
         "speed": 300,
         "armor": 1.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            43,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Clinkz",
@@ -245,9 +636,32 @@
             "Escape",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 15,
+                "gain": 1.6
+            },
+            "agi": {
+                "value": 22,
+                "gain": 3.3
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.55
+            }
+        },
         "speed": 300,
         "armor": 2.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            37,
+            43
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Clockwerk",
@@ -259,9 +673,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 24,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 13,
+                "gain": 2.3
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.3
+            }
+        },
         "speed": 315,
         "armor": 1.82,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            55,
+            57
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Crystal Maiden",
@@ -273,9 +710,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 1.7
+            },
+            "agi": {
+                "value": 16,
+                "gain": 1.6
+            },
+            "int": {
+                "value": 16,
+                "gain": 2.9
+            }
+        },
         "speed": 280,
         "armor": 1.24,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            35,
+            41
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Dark Seer",
@@ -287,9 +747,32 @@
             "Initiator",
             "Jungler"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 22,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 12,
+                "gain": 1.2
+            },
+            "int": {
+                "value": 25,
+                "gain": 2.7
+            }
+        },
         "speed": 300,
         "armor": 6.68,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            56,
+            62
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Dazzle",
@@ -300,9 +783,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 1.85
+            },
+            "agi": {
+                "value": 21,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 27,
+                "gain": 3.4
+            }
+        },
         "speed": 305,
         "armor": 1.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            41,
+            59
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Death Prophet",
@@ -314,9 +820,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 1.9
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.4
+            },
+            "int": {
+                "value": 23,
+                "gain": 3
+            }
+        },
         "speed": 310,
         "armor": 2.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            59
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Disruptor",
@@ -328,9 +857,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 19,
+                "gain": 1.9
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.4
+            },
+            "int": {
+                "value": 22,
+                "gain": 2.5
+            }
+        },
         "speed": 300,
         "armor": 1.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            49,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Doom",
@@ -343,9 +895,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 26,
+                "gain": 3.2
+            },
+            "agi": {
+                "value": 11,
+                "gain": 0.9
+            },
+            "int": {
+                "value": 13,
+                "gain": 2.1
+            }
+        },
         "speed": 290,
         "armor": 0.54,
-        "attackTime": 2
+        "attackTime": 2,
+        "damage": [
+            53,
+            69
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Dragon Knight",
@@ -359,9 +934,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 19,
+                "gain": 2.8
+            },
+            "agi": {
+                "value": 19,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.7
+            }
+        },
         "speed": 290,
         "armor": 3.66,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            50,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Drow Ranger",
@@ -372,9 +970,32 @@
             "Disabler",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 17,
+                "gain": 1.9
+            },
+            "agi": {
+                "value": 26,
+                "gain": 1.9
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.4
+            }
+        },
         "speed": 300,
         "armor": 0.64,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            55
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Earth Spirit",
@@ -387,9 +1008,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 21,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 17,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 18,
+                "gain": 2.1
+            }
+        },
         "speed": 295,
         "armor": 3.38,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Earthshaker",
@@ -401,9 +1045,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 12,
+                "gain": 1.4
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.8
+            }
+        },
         "speed": 310,
         "armor": 2.68,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Elder Titan",
@@ -415,9 +1082,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 24,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 23,
+                "gain": 1.6
+            }
+        },
         "speed": 315,
         "armor": 2.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            57
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Ember Spirit",
@@ -430,9 +1120,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 19,
+                "gain": 2
+            },
+            "agi": {
+                "value": 22,
+                "gain": 1.8
+            },
+            "int": {
+                "value": 20,
+                "gain": 1.8
+            }
+        },
         "speed": 310,
         "armor": 1.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            52,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Enchantress",
@@ -445,9 +1158,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 1
+            },
+            "agi": {
+                "value": 19,
+                "gain": 1.8
+            },
+            "int": {
+                "value": 16,
+                "gain": 2.8
+            }
+        },
         "speed": 335,
         "armor": 0.66,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            57
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Enigma",
@@ -459,9 +1195,32 @@
             "Jungler",
             "Pusher"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 2.1
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1
+            },
+            "int": {
+                "value": 20,
+                "gain": 3.4
+            }
+        },
         "speed": 300,
         "armor": 3.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            42,
+            48
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Faceless Void",
@@ -474,9 +1233,32 @@
             "Escape",
             "Initiator"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 23,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 23,
+                "gain": 2.65
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.5
+            }
+        },
         "speed": 300,
         "armor": 4.22,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            60,
+            66
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Gyrocopter",
@@ -487,9 +1269,32 @@
             "Disabler",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 18,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 24,
+                "gain": 2.8
+            },
+            "int": {
+                "value": 19,
+                "gain": 2.1
+            }
+        },
         "speed": 315,
         "armor": 4.36,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            37,
+            47
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Huskar",
@@ -500,9 +1305,32 @@
             "Durable",
             "Initiator"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 21,
+                "gain": 2.4
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.4
+            },
+            "int": {
+                "value": 18,
+                "gain": 1.5
+            }
+        },
         "speed": 300,
         "armor": 1.1,
-        "attackTime": 1.6
+        "attackTime": 1.6,
+        "damage": [
+            42,
+            51
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Invoker",
@@ -515,9 +1343,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 1.7
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.9
+            },
+            "int": {
+                "value": 16,
+                "gain": 4
+            }
+        },
         "speed": 280,
         "armor": 0.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            35,
+            41
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Io",
@@ -528,9 +1379,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 17,
+                "gain": 1.9
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.6
+            },
+            "int": {
+                "value": 23,
+                "gain": 1.7
+            }
+        },
         "speed": 295,
         "armor": -0.04,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            43,
+            52
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Jakiro",
@@ -542,9 +1416,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 25,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 10,
+                "gain": 1.2
+            },
+            "int": {
+                "value": 28,
+                "gain": 2.8
+            }
+        },
         "speed": 290,
         "armor": 2.4,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            53,
+            61
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Juggernaut",
@@ -555,13 +1452,36 @@
             "Escape",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 20,
+                "gain": 1.9
+            },
+            "agi": {
+                "value": 26,
+                "gain": 2.4
+            },
+            "int": {
+                "value": 14,
+                "gain": 1.4
+            }
+        },
         "speed": 305,
         "armor": 3.64,
-        "attackTime": 1.4
+        "attackTime": 1.4,
+        "damage": [
+            50,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Keeper of the Light",
-        "id": "keeper-of the light",
+        "id": "keeper-of-the-light",
         "roles": [
             "Ranged",
             "Disabler",
@@ -569,9 +1489,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 14,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.6
+            },
+            "int": {
+                "value": 25,
+                "gain": 2.8
+            }
+        },
         "speed": 335,
         "armor": 1.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            43,
+            57
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Kunkka",
@@ -584,9 +1527,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 24,
+                "gain": 3
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.3
+            },
+            "int": {
+                "value": 18,
+                "gain": 1.5
+            }
+        },
         "speed": 300,
         "armor": 3.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            50,
+            60
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Legion Commander",
@@ -599,9 +1565,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 26,
+                "gain": 2.6
+            },
+            "agi": {
+                "value": 18,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 20,
+                "gain": 2.2
+            }
+        },
         "speed": 320,
         "armor": 2.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            61,
+            65
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Leshrac",
@@ -614,9 +1603,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 1.5
+            },
+            "agi": {
+                "value": 23,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 26,
+                "gain": 3
+            }
+        },
         "speed": 320,
         "armor": 3.22,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            41,
+            45
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Lich",
@@ -626,9 +1638,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 18,
+                "gain": 1.55
+            },
+            "agi": {
+                "value": 15,
+                "gain": 2
+            },
+            "int": {
+                "value": 18,
+                "gain": 3.25
+            }
+        },
         "speed": 315,
         "armor": 1.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            42,
+            51
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Lifestealer",
@@ -641,9 +1676,32 @@
             "Escape",
             "Jungler"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 25,
+                "gain": 3
+            },
+            "agi": {
+                "value": 18,
+                "gain": 1.9
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.75
+            }
+        },
         "speed": 315,
         "armor": 1.52,
-        "attackTime": 1.7
+        "attackTime": 1.85,
+        "damage": [
+            57,
+            67
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Lina",
@@ -655,9 +1713,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 18,
+                "gain": 1.5
+            },
+            "agi": {
+                "value": 16,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 27,
+                "gain": 3.2
+            }
+        },
         "speed": 295,
         "armor": 1.24,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            40,
+            58
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Lion",
@@ -669,9 +1750,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 1.7
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 20,
+                "gain": 3
+            }
+        },
         "speed": 290,
         "armor": 1.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Lone Druid",
@@ -683,9 +1787,32 @@
             "Jungler",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 17,
+                "gain": 2.1
+            },
+            "agi": {
+                "value": 24,
+                "gain": 2.7
+            },
+            "int": {
+                "value": 13,
+                "gain": 1.4
+            }
+        },
         "speed": 325,
         "armor": 3.36,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            50
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Luna",
@@ -696,9 +1823,32 @@
             "Nuker",
             "Pusher"
         ],
-        "speed": 330,
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 15,
+                "gain": 2.2
+            },
+            "agi": {
+                "value": 18,
+                "gain": 3.3
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.85
+            }
+        },
+        "speed": 335,
         "armor": 3.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            50
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Lycan",
@@ -711,9 +1861,32 @@
             "Jungler",
             "Pusher"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 3
+            },
+            "agi": {
+                "value": 16,
+                "gain": 1.9
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.55
+            }
+        },
         "speed": 305,
         "armor": 3.24,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            58,
+            63
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Magnus",
@@ -725,9 +1898,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 21,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 15,
+                "gain": 2.5
+            },
+            "int": {
+                "value": 19,
+                "gain": 1.65
+            }
+        },
         "speed": 315,
         "armor": 4.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            53,
+            65
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Medusa",
@@ -738,9 +1934,32 @@
             "Disabler",
             "Durable"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 14,
+                "gain": 1.65
+            },
+            "agi": {
+                "value": 20,
+                "gain": 2.5
+            },
+            "int": {
+                "value": 19,
+                "gain": 2.1
+            }
+        },
         "speed": 290,
         "armor": 1.8,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            50
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Meepo",
@@ -754,9 +1973,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 23,
+                "gain": 1.6
+            },
+            "agi": {
+                "value": 23,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 20,
+                "gain": 1.6
+            }
+        },
         "speed": 315,
         "armor": 4.22,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            43,
+            49
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Mirana",
@@ -769,9 +2011,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 17,
+                "gain": 1.85
+            },
+            "agi": {
+                "value": 20,
+                "gain": 3.3
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.65
+            }
+        },
         "speed": 300,
         "armor": 1.8,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            38,
+            49
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Morphling",
@@ -784,9 +2049,32 @@
             "Escape",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 19,
+                "gain": 2
+            },
+            "agi": {
+                "value": 24,
+                "gain": 3.7
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.5
+            }
+        },
         "speed": 285,
         "armor": 1.36,
-        "attackTime": 1.6
+        "attackTime": 1.6,
+        "damage": [
+            37,
+            46
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Naga Siren",
@@ -800,9 +2088,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 21,
+                "gain": 2.5
+            },
+            "agi": {
+                "value": 21,
+                "gain": 2.75
+            },
+            "int": {
+                "value": 21,
+                "gain": 2
+            }
+        },
         "speed": 320,
         "armor": 5.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            46
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Nature's Prophet",
@@ -815,9 +2126,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 19,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 18,
+                "gain": 1.9
+            },
+            "int": {
+                "value": 25,
+                "gain": 2.9
+            }
+        },
         "speed": 295,
         "armor": 3.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            49,
+            63
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Necrophos",
@@ -829,9 +2163,32 @@
             "Durable",
             "Nuker"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 2
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 22,
+                "gain": 2.5
+            }
+        },
         "speed": 290,
         "armor": 3.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            48
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Night Stalker",
@@ -844,9 +2201,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 23,
+                "gain": 2.8
+            },
+            "agi": {
+                "value": 18,
+                "gain": 2.25
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.6
+            }
+        },
         "speed": 295,
         "armor": 5.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            61,
+            65
+        ],
+        "sight": [
+            1200,
+            1800
+        ]
     },
     {
         "name": "Nyx Assassin",
@@ -858,9 +2238,32 @@
             "Initiator",
             "Nuker"
         ],
-        "speed": 300,
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 18,
+                "gain": 2
+            },
+            "agi": {
+                "value": 19,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 18,
+                "gain": 2.1
+            }
+        },
+        "speed": 305,
         "armor": 3.66,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            49,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Ogre Magi",
@@ -873,9 +2276,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 23,
+                "gain": 3.2
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.55
+            },
+            "int": {
+                "value": 17,
+                "gain": 2.4
+            }
+        },
         "speed": 295,
         "armor": 7.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            58,
+            64
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Omniknight",
@@ -886,9 +2312,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 2.8
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.75
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.8
+            }
+        },
         "speed": 305,
         "armor": 5.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            53,
+            63
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Oracle",
@@ -900,9 +2349,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 18,
+                "gain": 1.9
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 23,
+                "gain": 2.9
+            }
+        },
         "speed": 305,
         "armor": 2.1,
-        "attackTime": 1.4
+        "attackTime": 1.4,
+        "damage": [
+            45,
+            51
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Outworld Devourer",
@@ -913,9 +2385,32 @@
             "Disabler",
             "Nuker"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 19,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 24,
+                "gain": 2
+            },
+            "int": {
+                "value": 26,
+                "gain": 2.7
+            }
+        },
         "speed": 315,
         "armor": 5.36,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            61
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Phantom Assassin",
@@ -925,9 +2420,32 @@
             "Carry",
             "Escape"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 20,
+                "gain": 1.85
+            },
+            "agi": {
+                "value": 23,
+                "gain": 3.15
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.4
+            }
+        },
         "speed": 310,
         "armor": 4.22,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            48
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Phantom Lancer",
@@ -939,9 +2457,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 21,
+                "gain": 1.7
+            },
+            "agi": {
+                "value": 29,
+                "gain": 2.6
+            },
+            "int": {
+                "value": 21,
+                "gain": 2
+            }
+        },
         "speed": 290,
         "armor": 4.06,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            51,
+            73
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Phoenix",
@@ -954,9 +2495,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 17,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 12,
+                "gain": 1.3
+            },
+            "int": {
+                "value": 18,
+                "gain": 1.8
+            }
+        },
         "speed": 285,
         "armor": -0.32,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            43,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Puck",
@@ -968,9 +2532,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 15,
+                "gain": 1.7
+            },
+            "agi": {
+                "value": 22,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 25,
+                "gain": 2.4
+            }
+        },
         "speed": 295,
         "armor": 2.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            58
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Pudge",
@@ -982,9 +2569,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 25,
+                "gain": 3.2
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 14,
+                "gain": 1.5
+            }
+        },
         "speed": 285,
         "armor": 0.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            52,
+            58
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Pugna",
@@ -994,22 +2604,68 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 1.2
+            },
+            "agi": {
+                "value": 16,
+                "gain": 1
+            },
+            "int": {
+                "value": 26,
+                "gain": 4.5
+            }
+        },
         "speed": 330,
         "armor": 1.24,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            45,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Queen of Pain",
-        "id": "queen-of pain",
+        "id": "queen-of-pain",
         "roles": [
             "Ranged",
             "Carry",
             "Escape",
             "Nuker"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 1.7
+            },
+            "agi": {
+                "value": 18,
+                "gain": 2
+            },
+            "int": {
+                "value": 24,
+                "gain": 2.5
+            }
+        },
         "speed": 295,
         "armor": 1.52,
-        "attackTime": 1.6
+        "attackTime": 1.6,
+        "damage": [
+            49,
+            57
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Razor",
@@ -1021,9 +2677,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 21,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 22,
+                "gain": 2
+            },
+            "int": {
+                "value": 19,
+                "gain": 1.8
+            }
+        },
         "speed": 295,
         "armor": 2.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            45,
+            47
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Riki",
@@ -1034,9 +2713,32 @@
             "Disabler",
             "Escape"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 17,
+                "gain": 1.6
+            },
+            "agi": {
+                "value": 34,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 14,
+                "gain": 1.3
+            }
+        },
         "speed": 290,
         "armor": 4.76,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            38,
+            42
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Rubick",
@@ -1047,9 +2749,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 19,
+                "gain": 1.5
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.6
+            },
+            "int": {
+                "value": 27,
+                "gain": 2.4
+            }
+        },
         "speed": 290,
         "armor": 0.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Sand King",
@@ -1062,9 +2787,32 @@
             "Jungler",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 2.6
+            },
+            "agi": {
+                "value": 19,
+                "gain": 2.1
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.8
+            }
+        },
         "speed": 300,
         "armor": 2.66,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            63
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Shadow Demon",
@@ -1076,9 +2824,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 1.9
+            },
+            "agi": {
+                "value": 18,
+                "gain": 2.2
+            },
+            "int": {
+                "value": 23,
+                "gain": 2.7
+            }
+        },
         "speed": 295,
         "armor": 2.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            50,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Shadow Fiend",
@@ -1088,9 +2859,32 @@
             "Carry",
             "Nuker"
         ],
-        "speed": 305,
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 15,
+                "gain": 2
+            },
+            "agi": {
+                "value": 20,
+                "gain": 2.9
+            },
+            "int": {
+                "value": 18,
+                "gain": 2
+            }
+        },
+        "speed": 315,
         "armor": 0.8,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            35,
+            41
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Shadow Shaman",
@@ -1103,9 +2897,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 21,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 16,
+                "gain": 1.6
+            },
+            "int": {
+                "value": 21,
+                "gain": 3
+            }
+        },
         "speed": 285,
         "armor": 1.24,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Silencer",
@@ -1118,9 +2935,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 2.2
+            },
+            "agi": {
+                "value": 22,
+                "gain": 3
+            },
+            "int": {
+                "value": 27,
+                "gain": 2.5
+            }
+        },
         "speed": 295,
-        "armor": 1.24,
-        "attackTime": 1.7
+        "armor": 2.08,
+        "attackTime": 1.7,
+        "damage": [
+            43,
+            57
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Skywrath Mage",
@@ -1131,9 +2971,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 19,
+                "gain": 1.5
+            },
+            "agi": {
+                "value": 13,
+                "gain": 0.8
+            },
+            "int": {
+                "value": 27,
+                "gain": 3.6
+            }
+        },
         "speed": 325,
         "armor": -0.18,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            39,
+            49
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Slardar",
@@ -1146,9 +3009,32 @@
             "Escape",
             "Initiator"
         ],
-        "speed": 295,
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 21,
+                "gain": 2.8
+            },
+            "agi": {
+                "value": 17,
+                "gain": 2.4
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.5
+            }
+        },
+        "speed": 290,
         "armor": 5.38,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            51,
+            59
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Slark",
@@ -1160,9 +3046,32 @@
             "Escape",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 21,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 21,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.9
+            }
+        },
         "speed": 305,
         "armor": 1.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            54,
+            62
+        ],
+        "sight": [
+            1800,
+            1800
+        ]
     },
     {
         "name": "Sniper",
@@ -1172,9 +3081,32 @@
             "Carry",
             "Nuker"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 16,
+                "gain": 1.7
+            },
+            "agi": {
+                "value": 21,
+                "gain": 2.5
+            },
+            "int": {
+                "value": 15,
+                "gain": 2.6
+            }
+        },
         "speed": 290,
         "armor": 1.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            36,
+            42
+        ],
+        "sight": [
+            1800,
+            1100
+        ]
     },
     {
         "name": "Spectre",
@@ -1185,9 +3117,32 @@
             "Durable",
             "Escape"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 19,
+                "gain": 2
+            },
+            "agi": {
+                "value": 23,
+                "gain": 1.8
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.9
+            }
+        },
         "speed": 290,
         "armor": 3.22,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            50
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Spirit Breaker",
@@ -1200,9 +3155,32 @@
             "Escape",
             "Initiator"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 29,
+                "gain": 2.4
+            },
+            "agi": {
+                "value": 17,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 14,
+                "gain": 1.8
+            }
+        },
         "speed": 290,
         "armor": 5.38,
-        "attackTime": 1.9
+        "attackTime": 1.9,
+        "damage": [
+            60,
+            70
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Storm Spirit",
@@ -1215,9 +3193,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 19,
+                "gain": 1.5
+            },
+            "agi": {
+                "value": 22,
+                "gain": 1.8
+            },
+            "int": {
+                "value": 24,
+                "gain": 3
+            }
+        },
         "speed": 285,
         "armor": 5.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Sven",
@@ -1230,9 +3231,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 23,
+                "gain": 2.7
+            },
+            "agi": {
+                "value": 21,
+                "gain": 2
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.3
+            }
+        },
         "speed": 290,
         "armor": 4.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            64,
+            66
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Techies",
@@ -1242,9 +3266,32 @@
             "Disabler",
             "Nuker"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 2
+            },
+            "agi": {
+                "value": 14,
+                "gain": 1.3
+            },
+            "int": {
+                "value": 22,
+                "gain": 2.9
+            }
+        },
         "speed": 270,
         "armor": 6.96,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            29,
+            31
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Templar Assassin",
@@ -1254,9 +3301,32 @@
             "Carry",
             "Escape"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 18,
+                "gain": 2.1
+            },
+            "agi": {
+                "value": 23,
+                "gain": 2.7
+            },
+            "int": {
+                "value": 20,
+                "gain": 2
+            }
+        },
         "speed": 305,
         "armor": 4.22,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            53,
+            59
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Terrorblade",
@@ -1267,9 +3337,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 15,
+                "gain": 1.4
+            },
+            "agi": {
+                "value": 22,
+                "gain": 3.2
+            },
+            "int": {
+                "value": 19,
+                "gain": 1.75
+            }
+        },
         "speed": 315,
         "armor": 10.08,
-        "attackTime": 1.5
+        "attackTime": 1.5,
+        "damage": [
+            48,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Tidehunter",
@@ -1281,9 +3374,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 3
+            },
+            "agi": {
+                "value": 15,
+                "gain": 1.5
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.7
+            }
+        },
         "speed": 305,
         "armor": 3.1,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            47,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Timbersaw",
@@ -1294,9 +3410,32 @@
             "Escape",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 16,
+                "gain": 1.3
+            },
+            "int": {
+                "value": 21,
+                "gain": 2.4
+            }
+        },
         "speed": 290,
         "armor": 0.24,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            48,
+            52
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Tinker",
@@ -1307,9 +3446,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 17,
+                "gain": 2
+            },
+            "agi": {
+                "value": 13,
+                "gain": 1.2
+            },
+            "int": {
+                "value": 30,
+                "gain": 2.2
+            }
+        },
         "speed": 305,
         "armor": 3.82,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            52,
+            58
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Tiny",
@@ -1323,9 +3485,32 @@
             "Nuker",
             "Pusher"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 26,
+                "gain": 3
+            },
+            "agi": {
+                "value": 9,
+                "gain": 0.9
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.6
+            }
+        },
         "speed": 285,
         "armor": 0.26,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            63,
+            69
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Treant Protector",
@@ -1338,9 +3523,32 @@
             "Initiator",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 25,
+                "gain": 3.3
+            },
+            "agi": {
+                "value": 15,
+                "gain": 2
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.8
+            }
+        },
         "speed": 300,
         "armor": 1.1,
-        "attackTime": 1.9
+        "attackTime": 1.9,
+        "damage": [
+            87,
+            95
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Troll Warlord",
@@ -1352,9 +3560,32 @@
             "Durable",
             "Pusher"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 20,
+                "gain": 2.2
+            },
+            "agi": {
+                "value": 21,
+                "gain": 2.75
+            },
+            "int": {
+                "value": 13,
+                "gain": 1
+            }
+        },
         "speed": 300,
         "armor": 1.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            38,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Tusk",
@@ -1365,9 +3596,32 @@
             "Initiator",
             "Nuker"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 23,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 23,
+                "gain": 2.1
+            },
+            "int": {
+                "value": 18,
+                "gain": 1.7
+            }
+        },
         "speed": 300,
         "armor": 3.22,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            50,
+            54
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Undying",
@@ -1379,9 +3633,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 2.1
+            },
+            "agi": {
+                "value": 10,
+                "gain": 0.8
+            },
+            "int": {
+                "value": 27,
+                "gain": 2.8
+            }
+        },
         "speed": 310,
         "armor": 3.4,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            57,
+            65
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Ursa",
@@ -1393,9 +3670,32 @@
             "Durable",
             "Jungler"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 23,
+                "gain": 2.7
+            },
+            "agi": {
+                "value": 18,
+                "gain": 2.1
+            },
+            "int": {
+                "value": 16,
+                "gain": 1.5
+            }
+        },
         "speed": 310,
         "armor": 5.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            45,
+            49
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Vengeful Spirit",
@@ -1408,9 +3708,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 18,
+                "gain": 2.6
+            },
+            "agi": {
+                "value": 27,
+                "gain": 3.3
+            },
+            "int": {
+                "value": 13,
+                "gain": 1.5
+            }
+        },
         "speed": 300,
         "armor": 3.78,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            39,
+            53
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Venomancer",
@@ -1423,9 +3746,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 18,
+                "gain": 1.85
+            },
+            "agi": {
+                "value": 22,
+                "gain": 2.6
+            },
+            "int": {
+                "value": 17,
+                "gain": 1.8
+            }
+        },
         "speed": 285,
         "armor": 3.08,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            41,
+            43
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Viper",
@@ -1437,9 +3783,32 @@
             "Durable",
             "Initiator"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 20,
+                "gain": 2.1
+            },
+            "agi": {
+                "value": 21,
+                "gain": 2.9
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.8
+            }
+        },
         "speed": 285,
         "armor": 1.94,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            44,
+            46
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Visage",
@@ -1452,9 +3821,32 @@
             "Pusher",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 22,
+                "gain": 2.4
+            },
+            "agi": {
+                "value": 11,
+                "gain": 1.3
+            },
+            "int": {
+                "value": 24,
+                "gain": 2.5
+            }
+        },
         "speed": 285,
         "armor": -0.46,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            48,
+            58
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Warlock",
@@ -1465,9 +3857,32 @@
             "Initiator",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 22,
+                "gain": 2.5
+            },
+            "agi": {
+                "value": 10,
+                "gain": 1
+            },
+            "int": {
+                "value": 24,
+                "gain": 2.7
+            }
+        },
         "speed": 295,
         "armor": 2.4,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            46,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Weaver",
@@ -1477,9 +3892,32 @@
             "Carry",
             "Escape"
         ],
+        "stats": {
+            "primary": "agi",
+            "str": {
+                "value": 15,
+                "gain": 1.5
+            },
+            "agi": {
+                "value": 14,
+                "gain": 2.5
+            },
+            "int": {
+                "value": 15,
+                "gain": 1.8
+            }
+        },
         "speed": 290,
         "armor": 0.96,
-        "attackTime": 1.8
+        "attackTime": 1.8,
+        "damage": [
+            55,
+            65
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Windranger",
@@ -1492,9 +3930,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 15,
+                "gain": 2.5
+            },
+            "agi": {
+                "value": 17,
+                "gain": 1.4
+            },
+            "int": {
+                "value": 22,
+                "gain": 2.6
+            }
+        },
         "speed": 295,
         "armor": 1.38,
-        "attackTime": 1.5
+        "attackTime": 1.5,
+        "damage": [
+            44,
+            56
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Winter Wyvern",
@@ -1505,9 +3966,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 24,
+                "gain": 2.1
+            },
+            "agi": {
+                "value": 16,
+                "gain": 1.9
+            },
+            "int": {
+                "value": 25,
+                "gain": 3.1
+            }
+        },
         "speed": 285,
         "armor": 1.24,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            38,
+            45
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Witch Doctor",
@@ -1518,9 +4002,32 @@
             "Nuker",
             "Support"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 16,
+                "gain": 1.8
+            },
+            "agi": {
+                "value": 13,
+                "gain": 1.4
+            },
+            "int": {
+                "value": 24,
+                "gain": 2.9
+            }
+        },
         "speed": 305,
         "armor": 0.82,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            51,
+            61
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Wraith King",
@@ -1533,9 +4040,32 @@
             "Initiator",
             "Support"
         ],
+        "stats": {
+            "primary": "str",
+            "str": {
+                "value": 22,
+                "gain": 2.9
+            },
+            "agi": {
+                "value": 18,
+                "gain": 1.7
+            },
+            "int": {
+                "value": 18,
+                "gain": 1.6
+            }
+        },
         "speed": 300,
         "armor": 2.52,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            61,
+            63
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     },
     {
         "name": "Zeus",
@@ -1544,8 +4074,31 @@
             "Ranged",
             "Nuker"
         ],
+        "stats": {
+            "primary": "int",
+            "str": {
+                "value": 19,
+                "gain": 2.3
+            },
+            "agi": {
+                "value": 11,
+                "gain": 1.2
+            },
+            "int": {
+                "value": 20,
+                "gain": 2.7
+            }
+        },
         "speed": 295,
         "armor": 1.54,
-        "attackTime": 1.7
+        "attackTime": 1.7,
+        "damage": [
+            41,
+            49
+        ],
+        "sight": [
+            1800,
+            800
+        ]
     }
 ]
